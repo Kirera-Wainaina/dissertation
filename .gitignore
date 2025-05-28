@@ -6,3 +6,6 @@ env/
 
 ## ignore backup files created by editors
 *~
+
+## ignore synthetic data directory
+solver/numpart/instances/synthetic/
