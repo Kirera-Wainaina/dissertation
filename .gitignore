@@ -1,2 +1,8 @@
 ## ignore the env/ file
 env/
+
+## ignore Java class files
+*.class
+
+## ignore backup files created by editors
+*~
