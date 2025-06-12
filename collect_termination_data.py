@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to run NumPartV2o on synthetic instances and collect results.
+Script to run NumPartV2o on synthetic instances and collect features for ML.
 """
 
 import os
@@ -14,6 +14,7 @@ TIMEOUT = 60 * 5  # Timeout in seconds
 JAVA_CMD = "java -cp .. numpart.NumPartV2o"
 SYNTHETIC_DIR = "instances/synthetic"
 SYNTHETIC_SOLVED_DIR = "instances/synthetic_solved"
+FEATURE_COLLECTED_DIR = "instances/feature_collected"
 OUTPUT_JSON = "solver_output.json"
 
 def run_command(instance_path):
