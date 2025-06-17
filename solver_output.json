@@ -1,0 +1,10730 @@
+[
+  {
+    "file": "instances/synthetic/n10k3_v1.txt",
+    "iter": 273,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 277,
+    "expandEvts": 137,
+    "backtrackEvts": 9,
+    "pruneBacktrackEvts": 128,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 273,
+    "sums": [
+      172,
+      170,
+      165
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 172,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n10k3_v2.txt",
+    "iter": 685,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 688,
+    "expandEvts": 343,
+    "backtrackEvts": 14,
+    "pruneBacktrackEvts": 329,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 685,
+    "sums": [
+      165,
+      165,
+      166
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 166,
+    "time": 44
+  },
+  {
+    "file": "instances/synthetic/n10k3_v3.txt",
+    "iter": 779,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 783,
+    "expandEvts": 390,
+    "backtrackEvts": 15,
+    "pruneBacktrackEvts": 375,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 779,
+    "sums": [
+      172,
+      172,
+      168
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 172,
+    "time": 42
+  },
+  {
+    "file": "instances/synthetic/n10k3_v4.txt",
+    "iter": 755,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 759,
+    "expandEvts": 378,
+    "backtrackEvts": 9,
+    "pruneBacktrackEvts": 369,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 755,
+    "sums": [
+      169,
+      167,
+      169
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 169,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n10k3_v5.txt",
+    "iter": 45,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 48,
+    "expandEvts": 23,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 21,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 45,
+    "sums": [
+      173,
+      168,
+      158
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 173,
+    "time": 37
+  },
+  {
+    "file": "instances/synthetic/n10k4_v1.txt",
+    "iter": 669,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 674,
+    "expandEvts": 335,
+    "backtrackEvts": 4,
+    "pruneBacktrackEvts": 331,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 669,
+    "sums": [
+      121,
+      129,
+      126,
+      122
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "maxsum": 129,
+    "time": 43
+  },
+  {
+    "file": "instances/synthetic/n10k4_v2.txt",
+    "iter": 187,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 190,
+    "expandEvts": 94,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 92,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 187,
+    "sums": [
+      149,
+      155,
+      152,
+      155
+    ],
+    "pi": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "maxsum": 155,
+    "time": 40
+  },
+  {
+    "file": "instances/synthetic/n10k4_v3.txt",
+    "iter": 615,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 618,
+    "expandEvts": 308,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 306,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 615,
+    "sums": [
+      130,
+      137,
+      128,
+      138
+    ],
+    "pi": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "maxsum": 138,
+    "time": 43
+  },
+  {
+    "file": "instances/synthetic/n10k4_v4.txt",
+    "iter": 5511,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 5518,
+    "expandEvts": 2756,
+    "backtrackEvts": 30,
+    "pruneBacktrackEvts": 2726,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5511,
+    "sums": [
+      181,
+      179,
+      175,
+      181
+    ],
+    "pi": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 181,
+    "time": 49
+  },
+  {
+    "file": "instances/synthetic/n10k4_v5.txt",
+    "iter": 141,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 144,
+    "expandEvts": 71,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 69,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 141,
+    "sums": [
+      150,
+      132,
+      126,
+      128
+    ],
+    "pi": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 150,
+    "time": 37
+  },
+  {
+    "file": "instances/synthetic/n10k5_v1.txt",
+    "iter": 21,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 24,
+    "expandEvts": 11,
+    "backtrackEvts": 1,
+    "pruneBacktrackEvts": 10,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 21,
+    "sums": [
+      75,
+      79,
+      81,
+      95,
+      99
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 99,
+    "time": 32
+  },
+  {
+    "file": "instances/synthetic/n10k5_v2.txt",
+    "iter": 899,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 902,
+    "expandEvts": 450,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 448,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 899,
+    "sums": [
+      126,
+      133,
+      113,
+      99,
+      97
+    ],
+    "pi": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "maxsum": 133,
+    "time": 44
+  },
+  {
+    "file": "instances/synthetic/n10k5_v3.txt",
+    "iter": 2095,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 2098,
+    "expandEvts": 1048,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 1046,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2095,
+    "sums": [
+      96,
+      96,
+      96,
+      100,
+      93
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2,
+      4
+    ],
+    "maxsum": 100,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n10k5_v4.txt",
+    "iter": 661,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 664,
+    "expandEvts": 331,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 329,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 661,
+    "sums": [
+      122,
+      108,
+      119,
+      106,
+      106
+    ],
+    "pi": [
+      0,
+      2,
+      1,
+      3,
+      4
+    ],
+    "maxsum": 122,
+    "time": 36
+  },
+  {
+    "file": "instances/synthetic/n10k5_v5.txt",
+    "iter": 899,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 11,
+    "evts": 902,
+    "expandEvts": 450,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 448,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 899,
+    "sums": [
+      94,
+      112,
+      107,
+      97,
+      102
+    ],
+    "pi": [
+      1,
+      2,
+      4,
+      3,
+      0
+    ],
+    "maxsum": 112,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n11k3_v1.txt",
+    "iter": 1495,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 1499,
+    "expandEvts": 748,
+    "backtrackEvts": 15,
+    "pruneBacktrackEvts": 733,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1495,
+    "sums": [
+      152,
+      152,
+      149
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 152,
+    "time": 42
+  },
+  {
+    "file": "instances/synthetic/n11k3_v2.txt",
+    "iter": 767,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 772,
+    "expandEvts": 384,
+    "backtrackEvts": 10,
+    "pruneBacktrackEvts": 374,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 767,
+    "sums": [
+      184,
+      182,
+      183
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 184,
+    "time": 36
+  },
+  {
+    "file": "instances/synthetic/n11k3_v3.txt",
+    "iter": 875,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 878,
+    "expandEvts": 438,
+    "backtrackEvts": 17,
+    "pruneBacktrackEvts": 421,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 875,
+    "sums": [
+      149,
+      151,
+      151
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 151,
+    "time": 36
+  },
+  {
+    "file": "instances/synthetic/n11k3_v4.txt",
+    "iter": 1769,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 1777,
+    "expandEvts": 885,
+    "backtrackEvts": 22,
+    "pruneBacktrackEvts": 863,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1769,
+    "sums": [
+      202,
+      203,
+      203
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 203,
+    "time": 39
+  },
+  {
+    "file": "instances/synthetic/n11k3_v5.txt",
+    "iter": 1425,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 1435,
+    "expandEvts": 713,
+    "backtrackEvts": 24,
+    "pruneBacktrackEvts": 689,
+    "pruneEvts": 0,
+    "strengthenEvts": 8,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1425,
+    "sums": [
+      221,
+      221,
+      220
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 221,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n11k4_v1.txt",
+    "iter": 11085,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 11094,
+    "expandEvts": 5543,
+    "backtrackEvts": 57,
+    "pruneBacktrackEvts": 5486,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 11085,
+    "sums": [
+      178,
+      175,
+      174,
+      180
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 180,
+    "time": 60
+  },
+  {
+    "file": "instances/synthetic/n11k4_v2.txt",
+    "iter": 617,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 621,
+    "expandEvts": 309,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 306,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 617,
+    "sums": [
+      169,
+      166,
+      170,
+      168
+    ],
+    "pi": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "maxsum": 170,
+    "time": 35
+  },
+  {
+    "file": "instances/synthetic/n11k4_v3.txt",
+    "iter": 143,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 146,
+    "expandEvts": 72,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 70,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 143,
+    "sums": [
+      160,
+      160,
+      152,
+      142
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 160,
+    "time": 34
+  },
+  {
+    "file": "instances/synthetic/n11k4_v4.txt",
+    "iter": 2783,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 2788,
+    "expandEvts": 1392,
+    "backtrackEvts": 4,
+    "pruneBacktrackEvts": 1388,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2783,
+    "sums": [
+      138,
+      135,
+      138,
+      141
+    ],
+    "pi": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 141,
+    "time": 43
+  },
+  {
+    "file": "instances/synthetic/n11k4_v5.txt",
+    "iter": 17013,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 17020,
+    "expandEvts": 8507,
+    "backtrackEvts": 70,
+    "pruneBacktrackEvts": 8437,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 17013,
+    "sums": [
+      189,
+      191,
+      178,
+      176
+    ],
+    "pi": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "maxsum": 191,
+    "time": 69
+  },
+  {
+    "file": "instances/synthetic/n11k5_v1.txt",
+    "iter": 23,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 26,
+    "expandEvts": 12,
+    "backtrackEvts": 1,
+    "pruneBacktrackEvts": 11,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 23,
+    "sums": [
+      79,
+      78,
+      77,
+      82,
+      89
+    ],
+    "pi": [
+      4,
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 89,
+    "time": 32
+  },
+  {
+    "file": "instances/synthetic/n11k5_v2.txt",
+    "iter": 663,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 666,
+    "expandEvts": 332,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 330,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 663,
+    "sums": [
+      134,
+      108,
+      109,
+      108,
+      107
+    ],
+    "pi": [
+      0,
+      2,
+      1,
+      3,
+      4
+    ],
+    "maxsum": 134,
+    "time": 37
+  },
+  {
+    "file": "instances/synthetic/n11k5_v3.txt",
+    "iter": 901,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 904,
+    "expandEvts": 451,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 449,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 901,
+    "sums": [
+      115,
+      128,
+      128,
+      127,
+      119
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    "maxsum": 128,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n11k5_v4.txt",
+    "iter": 3549,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 3554,
+    "expandEvts": 1775,
+    "backtrackEvts": 4,
+    "pruneBacktrackEvts": 1771,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 3549,
+    "sums": [
+      61,
+      66,
+      68,
+      62,
+      63
+    ],
+    "pi": [
+      2,
+      1,
+      4,
+      3,
+      0
+    ],
+    "maxsum": 68,
+    "time": 42
+  },
+  {
+    "file": "instances/synthetic/n11k5_v5.txt",
+    "iter": 663,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 12,
+    "evts": 666,
+    "expandEvts": 332,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 330,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 663,
+    "sums": [
+      107,
+      94,
+      90,
+      89,
+      84
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "maxsum": 107,
+    "time": 36
+  },
+  {
+    "file": "instances/synthetic/n12k3_v1.txt",
+    "iter": 1787,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 1791,
+    "expandEvts": 894,
+    "backtrackEvts": 18,
+    "pruneBacktrackEvts": 876,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1787,
+    "sums": [
+      189,
+      188,
+      189
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 189,
+    "time": 39
+  },
+  {
+    "file": "instances/synthetic/n12k3_v2.txt",
+    "iter": 6261,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 6266,
+    "expandEvts": 3131,
+    "backtrackEvts": 91,
+    "pruneBacktrackEvts": 3040,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6261,
+    "sums": [
+      196,
+      196,
+      196
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 196,
+    "time": 48
+  },
+  {
+    "file": "instances/synthetic/n12k3_v3.txt",
+    "iter": 5359,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 5362,
+    "expandEvts": 2680,
+    "backtrackEvts": 65,
+    "pruneBacktrackEvts": 2615,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5359,
+    "sums": [
+      124,
+      125,
+      125
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 125,
+    "time": 49
+  },
+  {
+    "file": "instances/synthetic/n12k3_v4.txt",
+    "iter": 2029,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 2032,
+    "expandEvts": 1015,
+    "backtrackEvts": 14,
+    "pruneBacktrackEvts": 1001,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2029,
+    "sums": [
+      180,
+      180,
+      179
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 180,
+    "time": 39
+  },
+  {
+    "file": "instances/synthetic/n12k3_v5.txt",
+    "iter": 4409,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 4418,
+    "expandEvts": 2205,
+    "backtrackEvts": 71,
+    "pruneBacktrackEvts": 2134,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 4409,
+    "sums": [
+      213,
+      213,
+      212
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 213,
+    "time": 42
+  },
+  {
+    "file": "instances/synthetic/n12k4_v1.txt",
+    "iter": 19819,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 19825,
+    "expandEvts": 9910,
+    "backtrackEvts": 53,
+    "pruneBacktrackEvts": 9857,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 19819,
+    "sums": [
+      175,
+      173,
+      170,
+      175
+    ],
+    "pi": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 175,
+    "time": 88
+  },
+  {
+    "file": "instances/synthetic/n12k4_v2.txt",
+    "iter": 6617,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 6621,
+    "expandEvts": 3309,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 3306,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6617,
+    "sums": [
+      137,
+      136,
+      143,
+      142
+    ],
+    "pi": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "maxsum": 143,
+    "time": 51
+  },
+  {
+    "file": "instances/synthetic/n12k4_v3.txt",
+    "iter": 3931,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 3934,
+    "expandEvts": 1966,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 1964,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 3931,
+    "sums": [
+      94,
+      93,
+      92,
+      94
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 94,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n12k4_v4.txt",
+    "iter": 17681,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 17686,
+    "expandEvts": 8841,
+    "backtrackEvts": 64,
+    "pruneBacktrackEvts": 8777,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 17681,
+    "sums": [
+      191,
+      194,
+      194,
+      190
+    ],
+    "pi": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "maxsum": 194,
+    "time": 65
+  },
+  {
+    "file": "instances/synthetic/n12k4_v5.txt",
+    "iter": 18577,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 18585,
+    "expandEvts": 9289,
+    "backtrackEvts": 55,
+    "pruneBacktrackEvts": 9234,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 18577,
+    "sums": [
+      147,
+      148,
+      148,
+      148
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "maxsum": 148,
+    "time": 78
+  },
+  {
+    "file": "instances/synthetic/n12k5_v1.txt",
+    "iter": 1873,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 1877,
+    "expandEvts": 937,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 934,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1873,
+    "sums": [
+      117,
+      118,
+      113,
+      117,
+      110
+    ],
+    "pi": [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    "maxsum": 118,
+    "time": 38
+  },
+  {
+    "file": "instances/synthetic/n12k5_v2.txt",
+    "iter": 665,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 668,
+    "expandEvts": 333,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 331,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 665,
+    "sums": [
+      140,
+      140,
+      139,
+      132,
+      129
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "maxsum": 140,
+    "time": 36
+  },
+  {
+    "file": "instances/synthetic/n12k5_v3.txt",
+    "iter": 6419,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 6422,
+    "expandEvts": 3210,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 3208,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6419,
+    "sums": [
+      100,
+      107,
+      110,
+      116,
+      98
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0,
+      4
+    ],
+    "maxsum": 116,
+    "time": 48
+  },
+  {
+    "file": "instances/synthetic/n12k5_v4.txt",
+    "iter": 903,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 906,
+    "expandEvts": 452,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 450,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 903,
+    "sums": [
+      142,
+      151,
+      147,
+      134,
+      117
+    ],
+    "pi": [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    "maxsum": 151,
+    "time": 40
+  },
+  {
+    "file": "instances/synthetic/n12k5_v5.txt",
+    "iter": 903,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 13,
+    "evts": 906,
+    "expandEvts": 452,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 450,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 903,
+    "sums": [
+      115,
+      120,
+      118,
+      118,
+      118
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    "maxsum": 120,
+    "time": 38
+  },
+  {
+    "file": "instances/synthetic/n13k3_v1.txt",
+    "iter": 2485,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 2490,
+    "expandEvts": 1243,
+    "backtrackEvts": 29,
+    "pruneBacktrackEvts": 1214,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2485,
+    "sums": [
+      148,
+      148,
+      148
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 148,
+    "time": 39
+  },
+  {
+    "file": "instances/synthetic/n13k3_v2.txt",
+    "iter": 6395,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 6404,
+    "expandEvts": 3198,
+    "backtrackEvts": 71,
+    "pruneBacktrackEvts": 3127,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6395,
+    "sums": [
+      268,
+      268,
+      268
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 268,
+    "time": 45
+  },
+  {
+    "file": "instances/synthetic/n13k3_v3.txt",
+    "iter": 4285,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 4290,
+    "expandEvts": 2143,
+    "backtrackEvts": 41,
+    "pruneBacktrackEvts": 2102,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 4285,
+    "sums": [
+      148,
+      149,
+      149
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 149,
+    "time": 44
+  },
+  {
+    "file": "instances/synthetic/n13k3_v4.txt",
+    "iter": 8357,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 8364,
+    "expandEvts": 4179,
+    "backtrackEvts": 184,
+    "pruneBacktrackEvts": 3995,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 8357,
+    "sums": [
+      231,
+      231,
+      231
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 231,
+    "time": 49
+  },
+  {
+    "file": "instances/synthetic/n13k3_v5.txt",
+    "iter": 3725,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 3730,
+    "expandEvts": 1863,
+    "backtrackEvts": 31,
+    "pruneBacktrackEvts": 1832,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 3725,
+    "sums": [
+      175,
+      177,
+      177
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 177,
+    "time": 41
+  },
+  {
+    "file": "instances/synthetic/n13k4_v1.txt",
+    "iter": 25673,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 25682,
+    "expandEvts": 12837,
+    "backtrackEvts": 72,
+    "pruneBacktrackEvts": 12765,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 25673,
+    "sums": [
+      195,
+      195,
+      189,
+      194
+    ],
+    "pi": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 195,
+    "time": 84
+  },
+  {
+    "file": "instances/synthetic/n13k4_v2.txt",
+    "iter": 7769,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 7772,
+    "expandEvts": 3885,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 3883,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 7769,
+    "sums": [
+      122,
+      120,
+      120,
+      122
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 122,
+    "time": 51
+  },
+  {
+    "file": "instances/synthetic/n13k4_v3.txt",
+    "iter": 19773,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 19781,
+    "expandEvts": 9887,
+    "backtrackEvts": 71,
+    "pruneBacktrackEvts": 9816,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 19773,
+    "sums": [
+      192,
+      193,
+      195,
+      194
+    ],
+    "pi": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "maxsum": 195,
+    "time": 81
+  },
+  {
+    "file": "instances/synthetic/n13k4_v4.txt",
+    "iter": 63095,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 63101,
+    "expandEvts": 31548,
+    "backtrackEvts": 65,
+    "pruneBacktrackEvts": 31483,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 63095,
+    "sums": [
+      157,
+      156,
+      157,
+      157
+    ],
+    "pi": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 157,
+    "time": 131
+  },
+  {
+    "file": "instances/synthetic/n13k4_v5.txt",
+    "iter": 40683,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 40688,
+    "expandEvts": 20342,
+    "backtrackEvts": 64,
+    "pruneBacktrackEvts": 20278,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 40683,
+    "sums": [
+      177,
+      178,
+      174,
+      178
+    ],
+    "pi": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 178,
+    "time": 105
+  },
+  {
+    "file": "instances/synthetic/n13k5_v1.txt",
+    "iter": 10049,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 10054,
+    "expandEvts": 5025,
+    "backtrackEvts": 4,
+    "pruneBacktrackEvts": 5021,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 10049,
+    "sums": [
+      128,
+      134,
+      126,
+      135,
+      132
+    ],
+    "pi": [
+      3,
+      1,
+      4,
+      0,
+      2
+    ],
+    "maxsum": 135,
+    "time": 59
+  },
+  {
+    "file": "instances/synthetic/n13k5_v2.txt",
+    "iter": 69101,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 69106,
+    "expandEvts": 34551,
+    "backtrackEvts": 4,
+    "pruneBacktrackEvts": 34547,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 69101,
+    "sums": [
+      147,
+      143,
+      147,
+      143,
+      149
+    ],
+    "pi": [
+      4,
+      0,
+      2,
+      1,
+      3
+    ],
+    "maxsum": 149,
+    "time": 125
+  },
+  {
+    "file": "instances/synthetic/n13k5_v3.txt",
+    "iter": 90929,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 90934,
+    "expandEvts": 45465,
+    "backtrackEvts": 4,
+    "pruneBacktrackEvts": 45461,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 90929,
+    "sums": [
+      133,
+      145,
+      145,
+      135,
+      136
+    ],
+    "pi": [
+      2,
+      1,
+      4,
+      3,
+      0
+    ],
+    "maxsum": 145,
+    "time": 125
+  },
+  {
+    "file": "instances/synthetic/n13k5_v4.txt",
+    "iter": 22019,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 22023,
+    "expandEvts": 11010,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 11007,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 22019,
+    "sums": [
+      104,
+      103,
+      105,
+      103,
+      97
+    ],
+    "pi": [
+      2,
+      0,
+      1,
+      3,
+      4
+    ],
+    "maxsum": 105,
+    "time": 85
+  },
+  {
+    "file": "instances/synthetic/n13k5_v5.txt",
+    "iter": 16381,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 14,
+    "evts": 16387,
+    "expandEvts": 8191,
+    "backtrackEvts": 5,
+    "pruneBacktrackEvts": 8186,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 16381,
+    "sums": [
+      156,
+      156,
+      156,
+      155,
+      154
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      3,
+      4
+    ],
+    "maxsum": 156,
+    "time": 68
+  },
+  {
+    "file": "instances/synthetic/n14k3_v1.txt",
+    "iter": 51687,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 51693,
+    "expandEvts": 25844,
+    "backtrackEvts": 389,
+    "pruneBacktrackEvts": 25455,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 51687,
+    "sums": [
+      290,
+      289,
+      289
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 290,
+    "time": 102
+  },
+  {
+    "file": "instances/synthetic/n14k3_v2.txt",
+    "iter": 2061,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 2065,
+    "expandEvts": 1031,
+    "backtrackEvts": 15,
+    "pruneBacktrackEvts": 1016,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2061,
+    "sums": [
+      174,
+      174,
+      174
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 174,
+    "time": 40
+  },
+  {
+    "file": "instances/synthetic/n14k3_v3.txt",
+    "iter": 50385,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 50393,
+    "expandEvts": 25193,
+    "backtrackEvts": 512,
+    "pruneBacktrackEvts": 24681,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 50385,
+    "sums": [
+      259,
+      259,
+      259
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 259,
+    "time": 98
+  },
+  {
+    "file": "instances/synthetic/n14k3_v4.txt",
+    "iter": 1967,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 1972,
+    "expandEvts": 984,
+    "backtrackEvts": 19,
+    "pruneBacktrackEvts": 965,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1967,
+    "sums": [
+      209,
+      208,
+      208
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 209,
+    "time": 44
+  },
+  {
+    "file": "instances/synthetic/n14k3_v5.txt",
+    "iter": 5081,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 5090,
+    "expandEvts": 2541,
+    "backtrackEvts": 60,
+    "pruneBacktrackEvts": 2481,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5081,
+    "sums": [
+      263,
+      263,
+      263
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 263,
+    "time": 43
+  },
+  {
+    "file": "instances/synthetic/n14k4_v1.txt",
+    "iter": 123943,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 123950,
+    "expandEvts": 61972,
+    "backtrackEvts": 66,
+    "pruneBacktrackEvts": 61906,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 123943,
+    "sums": [
+      184,
+      184,
+      178,
+      183
+    ],
+    "pi": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 184,
+    "time": 149
+  },
+  {
+    "file": "instances/synthetic/n14k4_v2.txt",
+    "iter": 26969,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 26976,
+    "expandEvts": 13485,
+    "backtrackEvts": 66,
+    "pruneBacktrackEvts": 13419,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 26969,
+    "sums": [
+      184,
+      183,
+      183,
+      184
+    ],
+    "pi": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 184,
+    "time": 99
+  },
+  {
+    "file": "instances/synthetic/n14k4_v3.txt",
+    "iter": 121391,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 121398,
+    "expandEvts": 60696,
+    "backtrackEvts": 71,
+    "pruneBacktrackEvts": 60625,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 121391,
+    "sums": [
+      167,
+      165,
+      167,
+      166
+    ],
+    "pi": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "maxsum": 167,
+    "time": 142
+  },
+  {
+    "file": "instances/synthetic/n14k4_v4.txt",
+    "iter": 72973,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 72978,
+    "expandEvts": 36487,
+    "backtrackEvts": 52,
+    "pruneBacktrackEvts": 36435,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 72973,
+    "sums": [
+      157,
+      157,
+      159,
+      159
+    ],
+    "pi": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 159,
+    "time": 131
+  },
+  {
+    "file": "instances/synthetic/n14k4_v5.txt",
+    "iter": 6863,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 6867,
+    "expandEvts": 3432,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 3429,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6863,
+    "sums": [
+      157,
+      159,
+      159,
+      158
+    ],
+    "pi": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "maxsum": 159,
+    "time": 48
+  },
+  {
+    "file": "instances/synthetic/n14k5_v1.txt",
+    "iter": 157819,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 157834,
+    "expandEvts": 78910,
+    "backtrackEvts": 15,
+    "pruneBacktrackEvts": 78895,
+    "pruneEvts": 0,
+    "strengthenEvts": 13,
+    "shortcircuitEvts": 0,
+    "terminateAt": 157819,
+    "sums": [
+      166,
+      166,
+      165,
+      165,
+      166
+    ],
+    "pi": [
+      4,
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 166,
+    "time": 147
+  },
+  {
+    "file": "instances/synthetic/n14k5_v2.txt",
+    "iter": 363935,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 363943,
+    "expandEvts": 181968,
+    "backtrackEvts": 127,
+    "pruneBacktrackEvts": 181841,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 363935,
+    "sums": [
+      159,
+      162,
+      162,
+      156,
+      151
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      3,
+      4
+    ],
+    "maxsum": 162,
+    "time": 184
+  },
+  {
+    "file": "instances/synthetic/n14k5_v3.txt",
+    "iter": 4793,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 4800,
+    "expandEvts": 2397,
+    "backtrackEvts": 6,
+    "pruneBacktrackEvts": 2391,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 4793,
+    "sums": [
+      134,
+      135,
+      137,
+      135,
+      134
+    ],
+    "pi": [
+      2,
+      3,
+      1,
+      4,
+      0
+    ],
+    "maxsum": 137,
+    "time": 54
+  },
+  {
+    "file": "instances/synthetic/n14k5_v4.txt",
+    "iter": 207563,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 207569,
+    "expandEvts": 103782,
+    "backtrackEvts": 5,
+    "pruneBacktrackEvts": 103777,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 207563,
+    "sums": [
+      159,
+      159,
+      157,
+      155,
+      157
+    ],
+    "pi": [
+      1,
+      0,
+      4,
+      2,
+      3
+    ],
+    "maxsum": 159,
+    "time": 168
+  },
+  {
+    "file": "instances/synthetic/n14k5_v5.txt",
+    "iter": 96829,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 15,
+    "evts": 96839,
+    "expandEvts": 48415,
+    "backtrackEvts": 9,
+    "pruneBacktrackEvts": 48406,
+    "pruneEvts": 0,
+    "strengthenEvts": 8,
+    "shortcircuitEvts": 0,
+    "terminateAt": 96829,
+    "sums": [
+      155,
+      155,
+      156,
+      155,
+      155
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      4,
+      3
+    ],
+    "maxsum": 156,
+    "time": 137
+  },
+  {
+    "file": "instances/synthetic/n15k3_v1.txt",
+    "iter": 64547,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 64558,
+    "expandEvts": 32274,
+    "backtrackEvts": 990,
+    "pruneBacktrackEvts": 31284,
+    "pruneEvts": 0,
+    "strengthenEvts": 9,
+    "shortcircuitEvts": 0,
+    "terminateAt": 64547,
+    "sums": [
+      260,
+      260,
+      260
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 260,
+    "time": 112
+  },
+  {
+    "file": "instances/synthetic/n15k3_v2.txt",
+    "iter": 171319,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 171324,
+    "expandEvts": 85660,
+    "backtrackEvts": 1925,
+    "pruneBacktrackEvts": 83735,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 171319,
+    "sums": [
+      296,
+      296,
+      295
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 296,
+    "time": 139
+  },
+  {
+    "file": "instances/synthetic/n15k3_v3.txt",
+    "iter": 109845,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 109850,
+    "expandEvts": 54923,
+    "backtrackEvts": 1263,
+    "pruneBacktrackEvts": 53660,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 109845,
+    "sums": [
+      215,
+      214,
+      215
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 215,
+    "time": 138
+  },
+  {
+    "file": "instances/synthetic/n15k3_v4.txt",
+    "iter": 151487,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 151492,
+    "expandEvts": 75744,
+    "backtrackEvts": 1909,
+    "pruneBacktrackEvts": 73835,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 151487,
+    "sums": [
+      273,
+      273,
+      273
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 273,
+    "time": 129
+  },
+  {
+    "file": "instances/synthetic/n15k3_v5.txt",
+    "iter": 44181,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 44189,
+    "expandEvts": 22091,
+    "backtrackEvts": 490,
+    "pruneBacktrackEvts": 21601,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 44181,
+    "sums": [
+      260,
+      260,
+      258
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 260,
+    "time": 105
+  },
+  {
+    "file": "instances/synthetic/n15k4_v1.txt",
+    "iter": 2197,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 2200,
+    "expandEvts": 1099,
+    "backtrackEvts": 2,
+    "pruneBacktrackEvts": 1097,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2197,
+    "sums": [
+      155,
+      153,
+      155,
+      153
+    ],
+    "pi": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "maxsum": 155,
+    "time": 40
+  },
+  {
+    "file": "instances/synthetic/n15k4_v2.txt",
+    "iter": 74647,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 74650,
+    "expandEvts": 37324,
+    "backtrackEvts": 66,
+    "pruneBacktrackEvts": 37258,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 74647,
+    "sums": [
+      235,
+      234,
+      235,
+      235
+    ],
+    "pi": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "maxsum": 235,
+    "time": 129
+  },
+  {
+    "file": "instances/synthetic/n15k4_v3.txt",
+    "iter": 321043,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 321052,
+    "expandEvts": 160522,
+    "backtrackEvts": 73,
+    "pruneBacktrackEvts": 160449,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 321043,
+    "sums": [
+      220,
+      221,
+      220,
+      221
+    ],
+    "pi": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 221,
+    "time": 176
+  },
+  {
+    "file": "instances/synthetic/n15k4_v4.txt",
+    "iter": 46733,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 46739,
+    "expandEvts": 23367,
+    "backtrackEvts": 65,
+    "pruneBacktrackEvts": 23302,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 46733,
+    "sums": [
+      176,
+      177,
+      176,
+      177
+    ],
+    "pi": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 177,
+    "time": 116
+  },
+  {
+    "file": "instances/synthetic/n15k4_v5.txt",
+    "iter": 54871,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 54875,
+    "expandEvts": 27436,
+    "backtrackEvts": 63,
+    "pruneBacktrackEvts": 27373,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 54871,
+    "sums": [
+      188,
+      189,
+      189,
+      187
+    ],
+    "pi": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "maxsum": 189,
+    "time": 114
+  },
+  {
+    "file": "instances/synthetic/n15k5_v1.txt",
+    "iter": 74543,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 74551,
+    "expandEvts": 37272,
+    "backtrackEvts": 7,
+    "pruneBacktrackEvts": 37265,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 74543,
+    "sums": [
+      140,
+      138,
+      140,
+      138,
+      138
+    ],
+    "pi": [
+      0,
+      2,
+      3,
+      1,
+      4
+    ],
+    "maxsum": 140,
+    "time": 133
+  },
+  {
+    "file": "instances/synthetic/n15k5_v2.txt",
+    "iter": 45155,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 45162,
+    "expandEvts": 22578,
+    "backtrackEvts": 6,
+    "pruneBacktrackEvts": 22572,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 45155,
+    "sums": [
+      122,
+      121,
+      122,
+      122,
+      122
+    ],
+    "pi": [
+      0,
+      3,
+      4,
+      2,
+      1
+    ],
+    "maxsum": 122,
+    "time": 105
+  },
+  {
+    "file": "instances/synthetic/n15k5_v3.txt",
+    "iter": 20213,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 20219,
+    "expandEvts": 10107,
+    "backtrackEvts": 5,
+    "pruneBacktrackEvts": 10102,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 20213,
+    "sums": [
+      162,
+      163,
+      163,
+      163,
+      163
+    ],
+    "pi": [
+      1,
+      3,
+      4,
+      2,
+      0
+    ],
+    "maxsum": 163,
+    "time": 73
+  },
+  {
+    "file": "instances/synthetic/n15k5_v4.txt",
+    "iter": 320197,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 320207,
+    "expandEvts": 160099,
+    "backtrackEvts": 9,
+    "pruneBacktrackEvts": 160090,
+    "pruneEvts": 0,
+    "strengthenEvts": 8,
+    "shortcircuitEvts": 0,
+    "terminateAt": 320197,
+    "sums": [
+      158,
+      157,
+      157,
+      158,
+      158
+    ],
+    "pi": [
+      3,
+      0,
+      4,
+      1,
+      2
+    ],
+    "maxsum": 158,
+    "time": 199
+  },
+  {
+    "file": "instances/synthetic/n15k5_v5.txt",
+    "iter": 175657,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 16,
+    "evts": 175661,
+    "expandEvts": 87829,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 87826,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 175657,
+    "sums": [
+      133,
+      134,
+      133,
+      134,
+      134
+    ],
+    "pi": [
+      1,
+      3,
+      4,
+      0,
+      2
+    ],
+    "maxsum": 134,
+    "time": 154
+  },
+  {
+    "file": "instances/synthetic/n16k3_v1.txt",
+    "iter": 68933,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 68938,
+    "expandEvts": 34467,
+    "backtrackEvts": 637,
+    "pruneBacktrackEvts": 33830,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 68933,
+    "sums": [
+      261,
+      261,
+      260
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 261,
+    "time": 113
+  },
+  {
+    "file": "instances/synthetic/n16k3_v2.txt",
+    "iter": 195503,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 195508,
+    "expandEvts": 97752,
+    "backtrackEvts": 2044,
+    "pruneBacktrackEvts": 95708,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 195503,
+    "sums": [
+      262,
+      261,
+      261
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 262,
+    "time": 139
+  },
+  {
+    "file": "instances/synthetic/n16k3_v3.txt",
+    "iter": 392697,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 392703,
+    "expandEvts": 196349,
+    "backtrackEvts": 5237,
+    "pruneBacktrackEvts": 191112,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 392697,
+    "sums": [
+      372,
+      372,
+      371
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 372,
+    "time": 177
+  },
+  {
+    "file": "instances/synthetic/n16k3_v4.txt",
+    "iter": 427929,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 427936,
+    "expandEvts": 213965,
+    "backtrackEvts": 5340,
+    "pruneBacktrackEvts": 208625,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 427929,
+    "sums": [
+      344,
+      343,
+      343
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 344,
+    "time": 190
+  },
+  {
+    "file": "instances/synthetic/n16k3_v5.txt",
+    "iter": 346589,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 346595,
+    "expandEvts": 173295,
+    "backtrackEvts": 5134,
+    "pruneBacktrackEvts": 168161,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 346589,
+    "sums": [
+      201,
+      201,
+      201
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 201,
+    "time": 177
+  },
+  {
+    "file": "instances/synthetic/n16k4_v1.txt",
+    "iter": 1213871,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 1213883,
+    "expandEvts": 606936,
+    "backtrackEvts": 2891,
+    "pruneBacktrackEvts": 604045,
+    "pruneEvts": 0,
+    "strengthenEvts": 10,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1213871,
+    "sums": [
+      223,
+      223,
+      223,
+      223
+    ],
+    "pi": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "maxsum": 223,
+    "time": 309
+  },
+  {
+    "file": "instances/synthetic/n16k4_v2.txt",
+    "iter": 65767,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 65773,
+    "expandEvts": 32884,
+    "backtrackEvts": 53,
+    "pruneBacktrackEvts": 32831,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 65767,
+    "sums": [
+      179,
+      179,
+      179,
+      179
+    ],
+    "pi": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "maxsum": 179,
+    "time": 125
+  },
+  {
+    "file": "instances/synthetic/n16k4_v3.txt",
+    "iter": 1240893,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 1240899,
+    "expandEvts": 620447,
+    "backtrackEvts": 1629,
+    "pruneBacktrackEvts": 618818,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1240893,
+    "sums": [
+      190,
+      189,
+      191,
+      191
+    ],
+    "pi": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "maxsum": 191,
+    "time": 283
+  },
+  {
+    "file": "instances/synthetic/n16k4_v4.txt",
+    "iter": 565591,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 565601,
+    "expandEvts": 282796,
+    "backtrackEvts": 1009,
+    "pruneBacktrackEvts": 281787,
+    "pruneEvts": 0,
+    "strengthenEvts": 8,
+    "shortcircuitEvts": 0,
+    "terminateAt": 565591,
+    "sums": [
+      163,
+      163,
+      163,
+      161
+    ],
+    "pi": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "maxsum": 163,
+    "time": 217
+  },
+  {
+    "file": "instances/synthetic/n16k4_v5.txt",
+    "iter": 188631,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 188643,
+    "expandEvts": 94316,
+    "backtrackEvts": 252,
+    "pruneBacktrackEvts": 94064,
+    "pruneEvts": 0,
+    "strengthenEvts": 10,
+    "shortcircuitEvts": 0,
+    "terminateAt": 188631,
+    "sums": [
+      169,
+      170,
+      170,
+      168
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "maxsum": 170,
+    "time": 152
+  },
+  {
+    "file": "instances/synthetic/n16k5_v1.txt",
+    "iter": 490287,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 490294,
+    "expandEvts": 245144,
+    "backtrackEvts": 6,
+    "pruneBacktrackEvts": 245138,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 490287,
+    "sums": [
+      135,
+      133,
+      135,
+      135,
+      134
+    ],
+    "pi": [
+      2,
+      0,
+      3,
+      4,
+      1
+    ],
+    "maxsum": 135,
+    "time": 200
+  },
+  {
+    "file": "instances/synthetic/n16k5_v2.txt",
+    "iter": 246641,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 246647,
+    "expandEvts": 123321,
+    "backtrackEvts": 5,
+    "pruneBacktrackEvts": 123316,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 246641,
+    "sums": [
+      138,
+      139,
+      138,
+      139,
+      139
+    ],
+    "pi": [
+      4,
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 139,
+    "time": 165
+  },
+  {
+    "file": "instances/synthetic/n16k5_v3.txt",
+    "iter": 637545,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 637551,
+    "expandEvts": 318773,
+    "backtrackEvts": 245,
+    "pruneBacktrackEvts": 318528,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 637545,
+    "sums": [
+      162,
+      164,
+      162,
+      162,
+      164
+    ],
+    "pi": [
+      4,
+      1,
+      0,
+      2,
+      3
+    ],
+    "maxsum": 164,
+    "time": 235
+  },
+  {
+    "file": "instances/synthetic/n16k5_v4.txt",
+    "iter": 313855,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 313863,
+    "expandEvts": 156928,
+    "backtrackEvts": 7,
+    "pruneBacktrackEvts": 156921,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 313855,
+    "sums": [
+      159,
+      155,
+      159,
+      159,
+      157
+    ],
+    "pi": [
+      0,
+      2,
+      3,
+      4,
+      1
+    ],
+    "maxsum": 159,
+    "time": 181
+  },
+  {
+    "file": "instances/synthetic/n16k5_v5.txt",
+    "iter": 170643,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 17,
+    "evts": 170651,
+    "expandEvts": 85322,
+    "backtrackEvts": 7,
+    "pruneBacktrackEvts": 85315,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 170643,
+    "sums": [
+      163,
+      164,
+      164,
+      164,
+      163
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      0,
+      4
+    ],
+    "maxsum": 164,
+    "time": 152
+  },
+  {
+    "file": "instances/synthetic/n17k3_v1.txt",
+    "iter": 390699,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 390706,
+    "expandEvts": 195350,
+    "backtrackEvts": 4872,
+    "pruneBacktrackEvts": 190478,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 390699,
+    "sums": [
+      357,
+      357,
+      357
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 357,
+    "time": 185
+  },
+  {
+    "file": "instances/synthetic/n17k3_v2.txt",
+    "iter": 426531,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 426535,
+    "expandEvts": 213266,
+    "backtrackEvts": 5745,
+    "pruneBacktrackEvts": 207521,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 426531,
+    "sums": [
+      304,
+      303,
+      303
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 304,
+    "time": 180
+  },
+  {
+    "file": "instances/synthetic/n17k3_v3.txt",
+    "iter": 78987,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 78992,
+    "expandEvts": 39494,
+    "backtrackEvts": 619,
+    "pruneBacktrackEvts": 38875,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 78987,
+    "sums": [
+      292,
+      292,
+      292
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 292,
+    "time": 116
+  },
+  {
+    "file": "instances/synthetic/n17k3_v4.txt",
+    "iter": 266223,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 266227,
+    "expandEvts": 133112,
+    "backtrackEvts": 2553,
+    "pruneBacktrackEvts": 130559,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 266223,
+    "sums": [
+      291,
+      290,
+      291
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 291,
+    "time": 162
+  },
+  {
+    "file": "instances/synthetic/n17k3_v5.txt",
+    "iter": 344933,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 344939,
+    "expandEvts": 172467,
+    "backtrackEvts": 3431,
+    "pruneBacktrackEvts": 169036,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 344933,
+    "sums": [
+      277,
+      277,
+      277
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 277,
+    "time": 166
+  },
+  {
+    "file": "instances/synthetic/n17k4_v1.txt",
+    "iter": 617437,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 617441,
+    "expandEvts": 308719,
+    "backtrackEvts": 67,
+    "pruneBacktrackEvts": 308652,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 617437,
+    "sums": [
+      199,
+      200,
+      200,
+      200
+    ],
+    "pi": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "maxsum": 200,
+    "time": 236
+  },
+  {
+    "file": "instances/synthetic/n17k4_v2.txt",
+    "iter": 297091,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 297095,
+    "expandEvts": 148546,
+    "backtrackEvts": 147,
+    "pruneBacktrackEvts": 148399,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 297091,
+    "sums": [
+      149,
+      149,
+      149,
+      148
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 149,
+    "time": 176
+  },
+  {
+    "file": "instances/synthetic/n17k4_v3.txt",
+    "iter": 96691,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 96695,
+    "expandEvts": 48346,
+    "backtrackEvts": 67,
+    "pruneBacktrackEvts": 48279,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 96691,
+    "sums": [
+      187,
+      188,
+      187,
+      187
+    ],
+    "pi": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "maxsum": 188,
+    "time": 122
+  },
+  {
+    "file": "instances/synthetic/n17k4_v4.txt",
+    "iter": 666387,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 666394,
+    "expandEvts": 333194,
+    "backtrackEvts": 217,
+    "pruneBacktrackEvts": 332977,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 666387,
+    "sums": [
+      212,
+      212,
+      212,
+      212
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "maxsum": 212,
+    "time": 226
+  },
+  {
+    "file": "instances/synthetic/n17k4_v5.txt",
+    "iter": 165085,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 165089,
+    "expandEvts": 82543,
+    "backtrackEvts": 67,
+    "pruneBacktrackEvts": 82476,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 165085,
+    "sums": [
+      230,
+      231,
+      231,
+      231
+    ],
+    "pi": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "maxsum": 231,
+    "time": 148
+  },
+  {
+    "file": "instances/synthetic/n17k5_v1.txt",
+    "iter": 2423965,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 2423973,
+    "expandEvts": 1211983,
+    "backtrackEvts": 332,
+    "pruneBacktrackEvts": 1211651,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2423965,
+    "sums": [
+      184,
+      183,
+      184,
+      184,
+      184
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 184,
+    "time": 466
+  },
+  {
+    "file": "instances/synthetic/n17k5_v2.txt",
+    "iter": 775631,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 775636,
+    "expandEvts": 387816,
+    "backtrackEvts": 244,
+    "pruneBacktrackEvts": 387572,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 775631,
+    "sums": [
+      162,
+      163,
+      163,
+      163,
+      162
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      4,
+      0
+    ],
+    "maxsum": 163,
+    "time": 248
+  },
+  {
+    "file": "instances/synthetic/n17k5_v3.txt",
+    "iter": 5012431,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 5012437,
+    "expandEvts": 2506216,
+    "backtrackEvts": 330,
+    "pruneBacktrackEvts": 2505886,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5012431,
+    "sums": [
+      195,
+      195,
+      193,
+      195,
+      195
+    ],
+    "pi": [
+      4,
+      1,
+      0,
+      3,
+      2
+    ],
+    "maxsum": 195,
+    "time": 840
+  },
+  {
+    "file": "instances/synthetic/n17k5_v4.txt",
+    "iter": 659113,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 659117,
+    "expandEvts": 329557,
+    "backtrackEvts": 3,
+    "pruneBacktrackEvts": 329554,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 659113,
+    "sums": [
+      145,
+      146,
+      147,
+      145,
+      147
+    ],
+    "pi": [
+      4,
+      2,
+      1,
+      0,
+      3
+    ],
+    "maxsum": 147,
+    "time": 216
+  },
+  {
+    "file": "instances/synthetic/n17k5_v5.txt",
+    "iter": 2894257,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 18,
+    "evts": 2894262,
+    "expandEvts": 1447129,
+    "backtrackEvts": 324,
+    "pruneBacktrackEvts": 1446805,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2894257,
+    "sums": [
+      123,
+      124,
+      124,
+      124,
+      124
+    ],
+    "pi": [
+      1,
+      3,
+      4,
+      2,
+      0
+    ],
+    "maxsum": 124,
+    "time": 547
+  },
+  {
+    "file": "instances/synthetic/n18k3_v1.txt",
+    "iter": 932563,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 932568,
+    "expandEvts": 466282,
+    "backtrackEvts": 9859,
+    "pruneBacktrackEvts": 456423,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 932563,
+    "sums": [
+      248,
+      249,
+      248
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 249,
+    "time": 243
+  },
+  {
+    "file": "instances/synthetic/n18k3_v2.txt",
+    "iter": 600949,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 600954,
+    "expandEvts": 300475,
+    "backtrackEvts": 5422,
+    "pruneBacktrackEvts": 295053,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 600949,
+    "sums": [
+      329,
+      329,
+      329
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 329,
+    "time": 207
+  },
+  {
+    "file": "instances/synthetic/n18k3_v3.txt",
+    "iter": 1538559,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 1538564,
+    "expandEvts": 769280,
+    "backtrackEvts": 12340,
+    "pruneBacktrackEvts": 756940,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1538559,
+    "sums": [
+      333,
+      333,
+      331
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 333,
+    "time": 299
+  },
+  {
+    "file": "instances/synthetic/n18k3_v4.txt",
+    "iter": 525573,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 525579,
+    "expandEvts": 262787,
+    "backtrackEvts": 5292,
+    "pruneBacktrackEvts": 257495,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 525573,
+    "sums": [
+      278,
+      278,
+      278
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 278,
+    "time": 185
+  },
+  {
+    "file": "instances/synthetic/n18k3_v5.txt",
+    "iter": 132349,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 132353,
+    "expandEvts": 66175,
+    "backtrackEvts": 948,
+    "pruneBacktrackEvts": 65227,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 132349,
+    "sums": [
+      215,
+      216,
+      216
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 216,
+    "time": 128
+  },
+  {
+    "file": "instances/synthetic/n18k4_v1.txt",
+    "iter": 835853,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 835858,
+    "expandEvts": 417927,
+    "backtrackEvts": 68,
+    "pruneBacktrackEvts": 417859,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 835853,
+    "sums": [
+      200,
+      201,
+      201,
+      201
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "maxsum": 201,
+    "time": 243
+  },
+  {
+    "file": "instances/synthetic/n18k4_v2.txt",
+    "iter": 27292461,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 27292476,
+    "expandEvts": 13646231,
+    "backtrackEvts": 20221,
+    "pruneBacktrackEvts": 13626010,
+    "pruneEvts": 0,
+    "strengthenEvts": 13,
+    "shortcircuitEvts": 0,
+    "terminateAt": 27292461,
+    "sums": [
+      275,
+      277,
+      277,
+      277
+    ],
+    "pi": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "maxsum": 277,
+    "time": 3504
+  },
+  {
+    "file": "instances/synthetic/n18k4_v3.txt",
+    "iter": 4714811,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 4714817,
+    "expandEvts": 2357406,
+    "backtrackEvts": 2709,
+    "pruneBacktrackEvts": 2354697,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 4714811,
+    "sums": [
+      234,
+      234,
+      234,
+      234
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "maxsum": 234,
+    "time": 731
+  },
+  {
+    "file": "instances/synthetic/n18k4_v4.txt",
+    "iter": 1563119,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 1563123,
+    "expandEvts": 781560,
+    "backtrackEvts": 1051,
+    "pruneBacktrackEvts": 780509,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1563119,
+    "sums": [
+      192,
+      193,
+      192,
+      193
+    ],
+    "pi": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 193,
+    "time": 356
+  },
+  {
+    "file": "instances/synthetic/n18k4_v5.txt",
+    "iter": 5987579,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 5987585,
+    "expandEvts": 2993790,
+    "backtrackEvts": 5349,
+    "pruneBacktrackEvts": 2988441,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5987579,
+    "sums": [
+      237,
+      238,
+      238,
+      238
+    ],
+    "pi": [
+      2,
+      1,
+      3,
+      0
+    ],
+    "maxsum": 238,
+    "time": 910
+  },
+  {
+    "file": "instances/synthetic/n18k5_v1.txt",
+    "iter": 6382325,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 6382333,
+    "expandEvts": 3191163,
+    "backtrackEvts": 307,
+    "pruneBacktrackEvts": 3190856,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6382325,
+    "sums": [
+      175,
+      175,
+      175,
+      175,
+      175
+    ],
+    "pi": [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    "maxsum": 175,
+    "time": 1076
+  },
+  {
+    "file": "instances/synthetic/n18k5_v2.txt",
+    "iter": 6351993,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 6351999,
+    "expandEvts": 3175997,
+    "backtrackEvts": 305,
+    "pruneBacktrackEvts": 3175692,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6351993,
+    "sums": [
+      167,
+      167,
+      165,
+      167,
+      167
+    ],
+    "pi": [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    "maxsum": 167,
+    "time": 1026
+  },
+  {
+    "file": "instances/synthetic/n18k5_v3.txt",
+    "iter": 2004419,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 2004424,
+    "expandEvts": 1002210,
+    "backtrackEvts": 124,
+    "pruneBacktrackEvts": 1002086,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2004419,
+    "sums": [
+      158,
+      158,
+      158,
+      157,
+      157
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "maxsum": 158,
+    "time": 428
+  },
+  {
+    "file": "instances/synthetic/n18k5_v4.txt",
+    "iter": 28057451,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 28057464,
+    "expandEvts": 14028726,
+    "backtrackEvts": 338,
+    "pruneBacktrackEvts": 14028388,
+    "pruneEvts": 0,
+    "strengthenEvts": 11,
+    "shortcircuitEvts": 0,
+    "terminateAt": 28057451,
+    "sums": [
+      192,
+      192,
+      192,
+      190,
+      191
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "maxsum": 192,
+    "time": 3819
+  },
+  {
+    "file": "instances/synthetic/n18k5_v5.txt",
+    "iter": 4362813,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 19,
+    "evts": 4362817,
+    "expandEvts": 2181407,
+    "backtrackEvts": 328,
+    "pruneBacktrackEvts": 2181079,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 4362813,
+    "sums": [
+      179,
+      181,
+      180,
+      179,
+      180
+    ],
+    "pi": [
+      1,
+      2,
+      4,
+      3,
+      0
+    ],
+    "maxsum": 181,
+    "time": 719
+  },
+  {
+    "file": "instances/synthetic/n19k3_v1.txt",
+    "iter": 579115,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 579122,
+    "expandEvts": 289558,
+    "backtrackEvts": 5826,
+    "pruneBacktrackEvts": 283732,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 579115,
+    "sums": [
+      353,
+      353,
+      353
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 353,
+    "time": 194
+  },
+  {
+    "file": "instances/synthetic/n19k3_v2.txt",
+    "iter": 815709,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 815712,
+    "expandEvts": 407855,
+    "backtrackEvts": 9302,
+    "pruneBacktrackEvts": 398553,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 815709,
+    "sums": [
+      323,
+      323,
+      324
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 324,
+    "time": 214
+  },
+  {
+    "file": "instances/synthetic/n19k3_v3.txt",
+    "iter": 725103,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 725106,
+    "expandEvts": 362552,
+    "backtrackEvts": 7304,
+    "pruneBacktrackEvts": 355248,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 725103,
+    "sums": [
+      269,
+      269,
+      268
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 269,
+    "time": 224
+  },
+  {
+    "file": "instances/synthetic/n19k3_v4.txt",
+    "iter": 5836509,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 5836512,
+    "expandEvts": 2918255,
+    "backtrackEvts": 75170,
+    "pruneBacktrackEvts": 2843085,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5836509,
+    "sums": [
+      306,
+      306,
+      307
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 307,
+    "time": 818
+  },
+  {
+    "file": "instances/synthetic/n19k3_v5.txt",
+    "iter": 3198983,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 3198988,
+    "expandEvts": 1599492,
+    "backtrackEvts": 21949,
+    "pruneBacktrackEvts": 1577543,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 3198983,
+    "sums": [
+      380,
+      380,
+      378
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 380,
+    "time": 511
+  },
+  {
+    "file": "instances/synthetic/n19k4_v1.txt",
+    "iter": 35111253,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 35111260,
+    "expandEvts": 17555627,
+    "backtrackEvts": 22186,
+    "pruneBacktrackEvts": 17533441,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 35111253,
+    "sums": [
+      237,
+      240,
+      240,
+      240
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "maxsum": 240,
+    "time": 4803
+  },
+  {
+    "file": "instances/synthetic/n19k4_v2.txt",
+    "iter": 15630403,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 15630409,
+    "expandEvts": 7815202,
+    "backtrackEvts": 10113,
+    "pruneBacktrackEvts": 7805089,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 15630403,
+    "sums": [
+      241,
+      241,
+      241,
+      240
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      3
+    ],
+    "maxsum": 241,
+    "time": 2270
+  },
+  {
+    "file": "instances/synthetic/n19k4_v3.txt",
+    "iter": 994989,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 994992,
+    "expandEvts": 497495,
+    "backtrackEvts": 62,
+    "pruneBacktrackEvts": 497433,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 994989,
+    "sums": [
+      151,
+      151,
+      150,
+      151
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 151,
+    "time": 315
+  },
+  {
+    "file": "instances/synthetic/n19k4_v4.txt",
+    "iter": 15406473,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 15406479,
+    "expandEvts": 7703237,
+    "backtrackEvts": 9357,
+    "pruneBacktrackEvts": 7693880,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 15406473,
+    "sums": [
+      205,
+      207,
+      207,
+      207
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 207,
+    "time": 2113
+  },
+  {
+    "file": "instances/synthetic/n19k4_v5.txt",
+    "iter": 20203221,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 20203226,
+    "expandEvts": 10101611,
+    "backtrackEvts": 14468,
+    "pruneBacktrackEvts": 10087143,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 20203221,
+    "sums": [
+      221,
+      221,
+      221,
+      221
+    ],
+    "pi": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "maxsum": 221,
+    "time": 2562
+  },
+  {
+    "file": "instances/synthetic/n19k5_v1.txt",
+    "iter": 35251491,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 35251497,
+    "expandEvts": 17625746,
+    "backtrackEvts": 1210,
+    "pruneBacktrackEvts": 17624536,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 35251491,
+    "sums": [
+      148,
+      148,
+      148,
+      148,
+      145
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0,
+      4
+    ],
+    "maxsum": 148,
+    "time": 4687
+  },
+  {
+    "file": "instances/synthetic/n19k5_v2.txt",
+    "iter": 5336867,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 5336875,
+    "expandEvts": 2668434,
+    "backtrackEvts": 8,
+    "pruneBacktrackEvts": 2668426,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5336867,
+    "sums": [
+      160,
+      160,
+      160,
+      160,
+      160
+    ],
+    "pi": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "maxsum": 160,
+    "time": 822
+  },
+  {
+    "file": "instances/synthetic/n19k5_v3.txt",
+    "iter": 6059027,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 6059033,
+    "expandEvts": 3029514,
+    "backtrackEvts": 330,
+    "pruneBacktrackEvts": 3029184,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6059027,
+    "sums": [
+      180,
+      181,
+      181,
+      180,
+      181
+    ],
+    "pi": [
+      4,
+      1,
+      2,
+      0,
+      3
+    ],
+    "maxsum": 181,
+    "time": 1079
+  },
+  {
+    "file": "instances/synthetic/n19k5_v4.txt",
+    "iter": 71938677,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 71938686,
+    "expandEvts": 35969339,
+    "backtrackEvts": 6093,
+    "pruneBacktrackEvts": 35963246,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 71938677,
+    "sums": [
+      238,
+      235,
+      235,
+      238,
+      238
+    ],
+    "pi": [
+      4,
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 238,
+    "time": 10535
+  },
+  {
+    "file": "instances/synthetic/n19k5_v5.txt",
+    "iter": 39898355,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 20,
+    "evts": 39898363,
+    "expandEvts": 19949178,
+    "backtrackEvts": 332,
+    "pruneBacktrackEvts": 19948846,
+    "pruneEvts": 0,
+    "strengthenEvts": 6,
+    "shortcircuitEvts": 0,
+    "terminateAt": 39898355,
+    "sums": [
+      245,
+      245,
+      245,
+      244,
+      244
+    ],
+    "pi": [
+      2,
+      1,
+      0,
+      4,
+      3
+    ],
+    "maxsum": 245,
+    "time": 5561
+  },
+  {
+    "file": "instances/synthetic/n20k3_v1.txt",
+    "iter": 2175465,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 2175470,
+    "expandEvts": 1087733,
+    "backtrackEvts": 21547,
+    "pruneBacktrackEvts": 1066186,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2175465,
+    "sums": [
+      370,
+      370,
+      370
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 370,
+    "time": 435
+  },
+  {
+    "file": "instances/synthetic/n20k3_v2.txt",
+    "iter": 11801625,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 11801630,
+    "expandEvts": 5900813,
+    "backtrackEvts": 88708,
+    "pruneBacktrackEvts": 5812105,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 11801625,
+    "sums": [
+      350,
+      350,
+      348
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 350,
+    "time": 1645
+  },
+  {
+    "file": "instances/synthetic/n20k3_v3.txt",
+    "iter": 2701885,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 2701889,
+    "expandEvts": 1350943,
+    "backtrackEvts": 29403,
+    "pruneBacktrackEvts": 1321540,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2701885,
+    "sums": [
+      339,
+      339,
+      339
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 339,
+    "time": 448
+  },
+  {
+    "file": "instances/synthetic/n20k3_v4.txt",
+    "iter": 2607883,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 2607887,
+    "expandEvts": 1303942,
+    "backtrackEvts": 12820,
+    "pruneBacktrackEvts": 1291122,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2607883,
+    "sums": [
+      305,
+      304,
+      305
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 305,
+    "time": 444
+  },
+  {
+    "file": "instances/synthetic/n20k3_v5.txt",
+    "iter": 5106235,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 5106242,
+    "expandEvts": 2553118,
+    "backtrackEvts": 44154,
+    "pruneBacktrackEvts": 2508964,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 5106235,
+    "sums": [
+      373,
+      373,
+      373
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 373,
+    "time": 685
+  },
+  {
+    "file": "instances/synthetic/n20k4_v1.txt",
+    "iter": 29894449,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 29894454,
+    "expandEvts": 14947225,
+    "backtrackEvts": 31705,
+    "pruneBacktrackEvts": 14915520,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 29894449,
+    "sums": [
+      312,
+      312,
+      311,
+      312
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 312,
+    "time": 3815
+  },
+  {
+    "file": "instances/synthetic/n20k4_v2.txt",
+    "iter": 2540541,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 2540545,
+    "expandEvts": 1270271,
+    "backtrackEvts": 1363,
+    "pruneBacktrackEvts": 1268908,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2540541,
+    "sums": [
+      203,
+      204,
+      204,
+      204
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 204,
+    "time": 495
+  },
+  {
+    "file": "instances/synthetic/n20k4_v3.txt",
+    "iter": 7366897,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 7366904,
+    "expandEvts": 3683449,
+    "backtrackEvts": 7510,
+    "pruneBacktrackEvts": 3675939,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 7366897,
+    "sums": [
+      233,
+      233,
+      233,
+      233
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 233,
+    "time": 1102
+  },
+  {
+    "file": "instances/synthetic/n20k4_v4.txt",
+    "iter": 108693647,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 108693653,
+    "expandEvts": 54346824,
+    "backtrackEvts": 80397,
+    "pruneBacktrackEvts": 54266427,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 108693647,
+    "sums": [
+      265,
+      264,
+      265,
+      264
+    ],
+    "pi": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "maxsum": 265,
+    "time": 13744
+  },
+  {
+    "file": "instances/synthetic/n20k4_v5.txt",
+    "iter": 10167387,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 10167391,
+    "expandEvts": 5083694,
+    "backtrackEvts": 5179,
+    "pruneBacktrackEvts": 5078515,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 10167387,
+    "sums": [
+      256,
+      255,
+      256,
+      256
+    ],
+    "pi": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "maxsum": 256,
+    "time": 1461
+  },
+  {
+    "file": "instances/synthetic/n20k5_v1.txt",
+    "iter": 159588227,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 159588231,
+    "expandEvts": 79794114,
+    "backtrackEvts": 8043,
+    "pruneBacktrackEvts": 79786071,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 159588227,
+    "sums": [
+      181,
+      181,
+      181,
+      181,
+      181
+    ],
+    "pi": [
+      1,
+      2,
+      3,
+      4,
+      0
+    ],
+    "maxsum": 181,
+    "time": 21205
+  },
+  {
+    "file": "instances/synthetic/n20k5_v2.txt",
+    "iter": 63437553,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 63437564,
+    "expandEvts": 31718777,
+    "backtrackEvts": 335,
+    "pruneBacktrackEvts": 31718442,
+    "pruneEvts": 0,
+    "strengthenEvts": 9,
+    "shortcircuitEvts": 0,
+    "terminateAt": 63437553,
+    "sums": [
+      218,
+      218,
+      218,
+      218,
+      218
+    ],
+    "pi": [
+      4,
+      1,
+      0,
+      3,
+      2
+    ],
+    "maxsum": 218,
+    "time": 8253
+  },
+  {
+    "file": "instances/synthetic/n20k5_v3.txt",
+    "iter": 12259815,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 12259819,
+    "expandEvts": 6129908,
+    "backtrackEvts": 328,
+    "pruneBacktrackEvts": 6129580,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 12259815,
+    "sums": [
+      198,
+      198,
+      198,
+      198,
+      198
+    ],
+    "pi": [
+      3,
+      4,
+      1,
+      2,
+      0
+    ],
+    "maxsum": 198,
+    "time": 1782
+  },
+  {
+    "file": "instances/synthetic/n20k5_v4.txt",
+    "iter": 110648957,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 110648964,
+    "expandEvts": 55324479,
+    "backtrackEvts": 4891,
+    "pruneBacktrackEvts": 55319588,
+    "pruneEvts": 0,
+    "strengthenEvts": 5,
+    "shortcircuitEvts": 0,
+    "terminateAt": 110648957,
+    "sums": [
+      188,
+      188,
+      187,
+      188,
+      188
+    ],
+    "pi": [
+      1,
+      4,
+      0,
+      3,
+      2
+    ],
+    "maxsum": 188,
+    "time": 14793
+  },
+  {
+    "file": "instances/synthetic/n20k5_v5.txt",
+    "iter": 233732053,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 21,
+    "evts": 233732063,
+    "expandEvts": 116866027,
+    "backtrackEvts": 17614,
+    "pruneBacktrackEvts": 116848413,
+    "pruneEvts": 0,
+    "strengthenEvts": 8,
+    "shortcircuitEvts": 0,
+    "terminateAt": 233732053,
+    "sums": [
+      203,
+      204,
+      203,
+      203,
+      204
+    ],
+    "pi": [
+      4,
+      1,
+      0,
+      2,
+      3
+    ],
+    "maxsum": 204,
+    "time": 30803
+  },
+  {
+    "file": "instances/synthetic/n21k3_v1.txt",
+    "iter": 123160553,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 123160559,
+    "expandEvts": 61580277,
+    "backtrackEvts": 2130011,
+    "pruneBacktrackEvts": 59450266,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 123160553,
+    "sums": [
+      339,
+      340,
+      339
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 340,
+    "time": 13510
+  },
+  {
+    "file": "instances/synthetic/n21k3_v2.txt",
+    "iter": 8412441,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 8412446,
+    "expandEvts": 4206221,
+    "backtrackEvts": 63619,
+    "pruneBacktrackEvts": 4142602,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 8412441,
+    "sums": [
+      345,
+      345,
+      345
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 345,
+    "time": 1062
+  },
+  {
+    "file": "instances/synthetic/n21k3_v3.txt",
+    "iter": 24282867,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 24282873,
+    "expandEvts": 12141434,
+    "backtrackEvts": 175976,
+    "pruneBacktrackEvts": 11965458,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 24282867,
+    "sums": [
+      392,
+      392,
+      392
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 392,
+    "time": 2933
+  },
+  {
+    "file": "instances/synthetic/n21k3_v4.txt",
+    "iter": 9932263,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 9932267,
+    "expandEvts": 4966132,
+    "backtrackEvts": 81411,
+    "pruneBacktrackEvts": 4884721,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 9932263,
+    "sums": [
+      341,
+      341,
+      340
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 341,
+    "time": 1490
+  },
+  {
+    "file": "instances/synthetic/n21k3_v5.txt",
+    "iter": 4751565,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 4751569,
+    "expandEvts": 2375783,
+    "backtrackEvts": 21033,
+    "pruneBacktrackEvts": 2354750,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 4751565,
+    "sums": [
+      379,
+      379,
+      379
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 379,
+    "time": 757
+  },
+  {
+    "file": "instances/synthetic/n21k4_v1.txt",
+    "iter": 312972409,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 312972418,
+    "expandEvts": 156486205,
+    "backtrackEvts": 334228,
+    "pruneBacktrackEvts": 156151977,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 312972409,
+    "sums": [
+      275,
+      274,
+      274,
+      274
+    ],
+    "pi": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "maxsum": 275,
+    "time": 38134
+  },
+  {
+    "file": "instances/synthetic/n21k4_v2.txt",
+    "iter": 98149699,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 98149703,
+    "expandEvts": 49074850,
+    "backtrackEvts": 50035,
+    "pruneBacktrackEvts": 49024815,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 98149699,
+    "sums": [
+      238,
+      238,
+      238,
+      238
+    ],
+    "pi": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "maxsum": 238,
+    "time": 12084
+  },
+  {
+    "file": "instances/synthetic/n21k4_v3.txt",
+    "iter": 94841325,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 94841331,
+    "expandEvts": 47420663,
+    "backtrackEvts": 47613,
+    "pruneBacktrackEvts": 47373050,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 94841325,
+    "sums": [
+      192,
+      192,
+      192,
+      192
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 192,
+    "time": 12052
+  },
+  {
+    "file": "instances/synthetic/n21k4_v4.txt",
+    "iter": 29706225,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 29706230,
+    "expandEvts": 14853113,
+    "backtrackEvts": 13364,
+    "pruneBacktrackEvts": 14839749,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 29706225,
+    "sums": [
+      223,
+      223,
+      224,
+      224
+    ],
+    "pi": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 224,
+    "time": 3544
+  },
+  {
+    "file": "instances/synthetic/n21k4_v5.txt",
+    "iter": 6653537,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 6653543,
+    "expandEvts": 3326769,
+    "backtrackEvts": 2205,
+    "pruneBacktrackEvts": 3324564,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 6653537,
+    "sums": [
+      227,
+      226,
+      228,
+      228
+    ],
+    "pi": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 228,
+    "time": 963
+  },
+  {
+    "file": "instances/synthetic/n21k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n21k5_v2.txt",
+    "iter": 67495845,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 67495850,
+    "expandEvts": 33747923,
+    "backtrackEvts": 329,
+    "pruneBacktrackEvts": 33747594,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 67495845,
+    "sums": [
+      211,
+      211,
+      211,
+      211,
+      211
+    ],
+    "pi": [
+      4,
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 211,
+    "time": 9333
+  },
+  {
+    "file": "instances/synthetic/n21k5_v3.txt",
+    "iter": 26792589,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 22,
+    "evts": 26792594,
+    "expandEvts": 13396295,
+    "backtrackEvts": 329,
+    "pruneBacktrackEvts": 13395966,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 26792589,
+    "sums": [
+      181,
+      181,
+      181,
+      180,
+      181
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "maxsum": 181,
+    "time": 3871
+  },
+  {
+    "file": "instances/synthetic/n21k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n21k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n22k3_v1.txt",
+    "iter": 109908859,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 109908868,
+    "expandEvts": 54954430,
+    "backtrackEvts": 1759979,
+    "pruneBacktrackEvts": 53194451,
+    "pruneEvts": 0,
+    "strengthenEvts": 7,
+    "shortcircuitEvts": 0,
+    "terminateAt": 109908859,
+    "sums": [
+      435,
+      433,
+      435
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 435,
+    "time": 14817
+  },
+  {
+    "file": "instances/synthetic/n22k3_v2.txt",
+    "iter": 9167445,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 9167450,
+    "expandEvts": 4583723,
+    "backtrackEvts": 62827,
+    "pruneBacktrackEvts": 4520896,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 9167445,
+    "sums": [
+      355,
+      354,
+      354
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 355,
+    "time": 1501
+  },
+  {
+    "file": "instances/synthetic/n22k3_v3.txt",
+    "iter": 38213361,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 38213365,
+    "expandEvts": 19106681,
+    "backtrackEvts": 446781,
+    "pruneBacktrackEvts": 18659900,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 38213361,
+    "sums": [
+      352,
+      352,
+      351
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 352,
+    "time": 5405
+  },
+  {
+    "file": "instances/synthetic/n22k3_v4.txt",
+    "iter": 7438849,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 7438852,
+    "expandEvts": 3719425,
+    "backtrackEvts": 36074,
+    "pruneBacktrackEvts": 3683351,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 7438849,
+    "sums": [
+      302,
+      302,
+      302
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 302,
+    "time": 1214
+  },
+  {
+    "file": "instances/synthetic/n22k3_v5.txt",
+    "iter": 19544663,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 19544666,
+    "expandEvts": 9772332,
+    "backtrackEvts": 191294,
+    "pruneBacktrackEvts": 9581038,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 19544663,
+    "sums": [
+      348,
+      350,
+      350
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 350,
+    "time": 2887
+  },
+  {
+    "file": "instances/synthetic/n22k4_v1.txt",
+    "iter": 215901617,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 215901621,
+    "expandEvts": 107950809,
+    "backtrackEvts": 138751,
+    "pruneBacktrackEvts": 107812058,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 215901617,
+    "sums": [
+      271,
+      271,
+      272,
+      272
+    ],
+    "pi": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "maxsum": 272,
+    "time": 31758
+  },
+  {
+    "file": "instances/synthetic/n22k4_v2.txt",
+    "iter": 244106749,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 244106754,
+    "expandEvts": 122053375,
+    "backtrackEvts": 165816,
+    "pruneBacktrackEvts": 121887559,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 244106749,
+    "sums": [
+      289,
+      289,
+      288,
+      289
+    ],
+    "pi": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 289,
+    "time": 35719
+  },
+  {
+    "file": "instances/synthetic/n22k4_v3.txt",
+    "iter": 80817885,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 80817890,
+    "expandEvts": 40408943,
+    "backtrackEvts": 13628,
+    "pruneBacktrackEvts": 40395315,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 80817885,
+    "sums": [
+      208,
+      208,
+      208,
+      208
+    ],
+    "pi": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "maxsum": 208,
+    "time": 10820
+  },
+  {
+    "file": "instances/synthetic/n22k4_v4.txt",
+    "iter": 82386767,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 82386772,
+    "expandEvts": 41193384,
+    "backtrackEvts": 38132,
+    "pruneBacktrackEvts": 41155252,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 82386767,
+    "sums": [
+      244,
+      244,
+      244,
+      244
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 244,
+    "time": 10925
+  },
+  {
+    "file": "instances/synthetic/n22k4_v5.txt",
+    "iter": 278058005,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 278058010,
+    "expandEvts": 139029003,
+    "backtrackEvts": 73917,
+    "pruneBacktrackEvts": 138955086,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 278058005,
+    "sums": [
+      206,
+      205,
+      204,
+      206
+    ],
+    "pi": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 206,
+    "time": 36676
+  },
+  {
+    "file": "instances/synthetic/n22k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n22k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n22k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n22k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n22k5_v5.txt",
+    "iter": 288043975,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 23,
+    "evts": 288043994,
+    "expandEvts": 144021988,
+    "backtrackEvts": 60223,
+    "pruneBacktrackEvts": 143961765,
+    "pruneEvts": 0,
+    "strengthenEvts": 17,
+    "shortcircuitEvts": 0,
+    "terminateAt": 288043975,
+    "sums": [
+      212,
+      212,
+      211,
+      212,
+      212
+    ],
+    "pi": [
+      1,
+      0,
+      4,
+      3,
+      2
+    ],
+    "maxsum": 212,
+    "time": 45316
+  },
+  {
+    "file": "instances/synthetic/n23k3_v1.txt",
+    "iter": 53459551,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 53459557,
+    "expandEvts": 26729776,
+    "backtrackEvts": 261380,
+    "pruneBacktrackEvts": 26468396,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 53459551,
+    "sums": [
+      379,
+      380,
+      379
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 380,
+    "time": 7579
+  },
+  {
+    "file": "instances/synthetic/n23k3_v2.txt",
+    "iter": 29291085,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 29291089,
+    "expandEvts": 14645543,
+    "backtrackEvts": 217416,
+    "pruneBacktrackEvts": 14428127,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 29291085,
+    "sums": [
+      419,
+      419,
+      419
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 419,
+    "time": 4270
+  },
+  {
+    "file": "instances/synthetic/n23k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k3_v4.txt",
+    "iter": 433312805,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 433312811,
+    "expandEvts": 216656403,
+    "backtrackEvts": 5856800,
+    "pruneBacktrackEvts": 210799603,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 433312805,
+    "sums": [
+      416,
+      416,
+      415
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 416,
+    "time": 54672
+  },
+  {
+    "file": "instances/synthetic/n23k3_v5.txt",
+    "iter": 91975331,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 91975337,
+    "expandEvts": 45987666,
+    "backtrackEvts": 1077710,
+    "pruneBacktrackEvts": 44909956,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 91975331,
+    "sums": [
+      413,
+      414,
+      413
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 414,
+    "time": 11285
+  },
+  {
+    "file": "instances/synthetic/n23k4_v1.txt",
+    "iter": 71899527,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 71899532,
+    "expandEvts": 35949764,
+    "backtrackEvts": 21980,
+    "pruneBacktrackEvts": 35927784,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 71899527,
+    "sums": [
+      234,
+      234,
+      234,
+      234
+    ],
+    "pi": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "maxsum": 234,
+    "time": 9486
+  },
+  {
+    "file": "instances/synthetic/n23k4_v2.txt",
+    "iter": 173909239,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 173909245,
+    "expandEvts": 86954620,
+    "backtrackEvts": 72753,
+    "pruneBacktrackEvts": 86881867,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 173909239,
+    "sums": [
+      262,
+      261,
+      262,
+      262
+    ],
+    "pi": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "maxsum": 262,
+    "time": 22396
+  },
+  {
+    "file": "instances/synthetic/n23k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k4_v4.txt",
+    "iter": 177077821,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 24,
+    "evts": 177077825,
+    "expandEvts": 88538911,
+    "backtrackEvts": 46495,
+    "pruneBacktrackEvts": 88492416,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 177077821,
+    "sums": [
+      281,
+      281,
+      280,
+      281
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 281,
+    "time": 25759
+  },
+  {
+    "file": "instances/synthetic/n23k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n23k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k3_v1.txt",
+    "iter": 98689039,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 25,
+    "evts": 98689043,
+    "expandEvts": 49344520,
+    "backtrackEvts": 781197,
+    "pruneBacktrackEvts": 48563323,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 98689039,
+    "sums": [
+      303,
+      304,
+      304
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 304,
+    "time": 21854
+  },
+  {
+    "file": "instances/synthetic/n24k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n24k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k3_v5.txt",
+    "iter": 96640231,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 26,
+    "evts": 96640235,
+    "expandEvts": 48320116,
+    "backtrackEvts": 424143,
+    "pruneBacktrackEvts": 47895973,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 96640231,
+    "sums": [
+      374,
+      374,
+      374
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 374,
+    "time": 48796
+  },
+  {
+    "file": "instances/synthetic/n25k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n25k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k3_v1.txt",
+    "iter": 2075388373,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 27,
+    "evts": 2075388377,
+    "expandEvts": 1037694187,
+    "backtrackEvts": 22420584,
+    "pruneBacktrackEvts": 1015273603,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 2075388373,
+    "sums": [
+      377,
+      378,
+      378
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 378,
+    "time": 260153
+  },
+  {
+    "file": "instances/synthetic/n26k3_v2.txt",
+    "iter": 787986533,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 27,
+    "evts": 787986536,
+    "expandEvts": 393993267,
+    "backtrackEvts": 5162894,
+    "pruneBacktrackEvts": 388830373,
+    "pruneEvts": 0,
+    "strengthenEvts": 1,
+    "shortcircuitEvts": 0,
+    "terminateAt": 787986533,
+    "sums": [
+      458,
+      458,
+      459
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 459,
+    "time": 99759
+  },
+  {
+    "file": "instances/synthetic/n26k3_v3.txt",
+    "iter": 569317513,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 27,
+    "evts": 569317518,
+    "expandEvts": 284658757,
+    "backtrackEvts": 5947051,
+    "pruneBacktrackEvts": 278711706,
+    "pruneEvts": 0,
+    "strengthenEvts": 3,
+    "shortcircuitEvts": 0,
+    "terminateAt": 569317513,
+    "sums": [
+      391,
+      390,
+      391
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 391,
+    "time": 70037
+  },
+  {
+    "file": "instances/synthetic/n26k3_v4.txt",
+    "iter": 592702841,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 27,
+    "evts": 592702847,
+    "expandEvts": 296351421,
+    "backtrackEvts": 5427404,
+    "pruneBacktrackEvts": 290924017,
+    "pruneEvts": 0,
+    "strengthenEvts": 4,
+    "shortcircuitEvts": 0,
+    "terminateAt": 592702841,
+    "sums": [
+      360,
+      360,
+      360
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 360,
+    "time": 72351
+  },
+  {
+    "file": "instances/synthetic/n26k3_v5.txt",
+    "iter": 1473640321,
+    "event": "TERMINATE",
+    "stackDepth": 0,
+    "path": [],
+    "stack": [],
+    "maxStackDepth": 27,
+    "evts": 1473640325,
+    "expandEvts": 736820161,
+    "backtrackEvts": 14802120,
+    "pruneBacktrackEvts": 722018041,
+    "pruneEvts": 0,
+    "strengthenEvts": 2,
+    "shortcircuitEvts": 0,
+    "terminateAt": 1473640321,
+    "sums": [
+      421,
+      421,
+      422
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 422,
+    "time": 184993
+  },
+  {
+    "file": "instances/synthetic/n26k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n26k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n27k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n28k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n29k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n30k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n31k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n32k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n33k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n34k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n35k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n36k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n37k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n38k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n39k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n40k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n41k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n42k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n43k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n44k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n45k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n46k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n47k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n48k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n49k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k3_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k3_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k3_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k3_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k3_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k4_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k4_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k4_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k4_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k4_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k5_v1.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k5_v2.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k5_v3.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k5_v4.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n50k5_v5.txt",
+    "time": "unlimited"
+  },
+  {
+    "file": "instances/synthetic/n5k3_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      55,
+      55,
+      65
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 65,
+    "time": 202
+  },
+  {
+    "file": "instances/synthetic/n5k3_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      79,
+      91,
+      96
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 96,
+    "time": 172
+  },
+  {
+    "file": "instances/synthetic/n5k3_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      144,
+      116,
+      99
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 144,
+    "time": 218
+  },
+  {
+    "file": "instances/synthetic/n5k3_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      64,
+      59,
+      67
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 67,
+    "time": 181
+  },
+  {
+    "file": "instances/synthetic/n5k3_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      124,
+      122,
+      80
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 124,
+    "time": 175
+  },
+  {
+    "file": "instances/synthetic/n5k4_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      105,
+      86,
+      89,
+      91
+    ],
+    "pi": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "maxsum": 105,
+    "time": 176
+  },
+  {
+    "file": "instances/synthetic/n5k4_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      87,
+      48,
+      67,
+      83
+    ],
+    "pi": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "maxsum": 87,
+    "time": 193
+  },
+  {
+    "file": "instances/synthetic/n5k4_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      43,
+      40,
+      45,
+      71
+    ],
+    "pi": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 71,
+    "time": 189
+  },
+  {
+    "file": "instances/synthetic/n5k4_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      71,
+      83,
+      91,
+      93
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 93,
+    "time": 173
+  },
+  {
+    "file": "instances/synthetic/n5k4_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      49,
+      73,
+      76,
+      78
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 78,
+    "time": 216
+  },
+  {
+    "file": "instances/synthetic/n5k5_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      2,
+      29,
+      41,
+      56,
+      68
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 68,
+    "time": 182
+  },
+  {
+    "file": "instances/synthetic/n5k5_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      13,
+      27,
+      32,
+      89,
+      98
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 98,
+    "time": 198
+  },
+  {
+    "file": "instances/synthetic/n5k5_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      2,
+      8,
+      10,
+      48,
+      99
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 99,
+    "time": 194
+  },
+  {
+    "file": "instances/synthetic/n5k5_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      22,
+      63,
+      75,
+      80,
+      86
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 86,
+    "time": 171
+  },
+  {
+    "file": "instances/synthetic/n5k5_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      78,
+      80,
+      91,
+      95,
+      96
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 96,
+    "time": 182
+  },
+  {
+    "file": "instances/synthetic/n6k3_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      92,
+      96,
+      95
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 96,
+    "time": 187
+  },
+  {
+    "file": "instances/synthetic/n6k3_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      76,
+      66,
+      73
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 76,
+    "time": 185
+  },
+  {
+    "file": "instances/synthetic/n6k3_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      108,
+      122,
+      123
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 123,
+    "time": 180
+  },
+  {
+    "file": "instances/synthetic/n6k3_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      119,
+      111,
+      112
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 119,
+    "time": 196
+  },
+  {
+    "file": "instances/synthetic/n6k3_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      109,
+      118,
+      122
+    ],
+    "pi": [
+      2,
+      1,
+      0
+    ],
+    "maxsum": 122,
+    "time": 193
+  },
+  {
+    "file": "instances/synthetic/n6k4_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      39,
+      40,
+      58,
+      60
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 60,
+    "time": 168
+  },
+  {
+    "file": "instances/synthetic/n6k4_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      49,
+      67,
+      77,
+      87
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 87,
+    "time": 183
+  },
+  {
+    "file": "instances/synthetic/n6k4_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      82,
+      74,
+      60,
+      68
+    ],
+    "pi": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 82,
+    "time": 176
+  },
+  {
+    "file": "instances/synthetic/n6k4_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      78,
+      75,
+      70,
+      87
+    ],
+    "pi": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 87,
+    "time": 158
+  },
+  {
+    "file": "instances/synthetic/n6k4_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      150,
+      94,
+      96,
+      99
+    ],
+    "pi": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "maxsum": 150,
+    "time": 183
+  },
+  {
+    "file": "instances/synthetic/n6k5_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      84,
+      67,
+      67,
+      84,
+      86
+    ],
+    "pi": [
+      4,
+      3,
+      0,
+      2,
+      1
+    ],
+    "maxsum": 86,
+    "time": 204
+  },
+  {
+    "file": "instances/synthetic/n6k5_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      13,
+      52,
+      85,
+      85,
+      92
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 92,
+    "time": 154
+  },
+  {
+    "file": "instances/synthetic/n6k5_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      41,
+      30,
+      32,
+      86,
+      88
+    ],
+    "pi": [
+      4,
+      3,
+      0,
+      2,
+      1
+    ],
+    "maxsum": 88,
+    "time": 184
+  },
+  {
+    "file": "instances/synthetic/n6k5_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      59,
+      66,
+      76,
+      86,
+      96
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 96,
+    "time": 170
+  },
+  {
+    "file": "instances/synthetic/n6k5_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      20,
+      21,
+      45,
+      77,
+      91
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 91,
+    "time": 176
+  },
+  {
+    "file": "instances/synthetic/n7k3_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      181,
+      170,
+      178
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 181,
+    "time": 217
+  },
+  {
+    "file": "instances/synthetic/n7k3_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      114,
+      113,
+      123
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 123,
+    "time": 199
+  },
+  {
+    "file": "instances/synthetic/n7k3_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      162,
+      159,
+      130
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 162,
+    "time": 185
+  },
+  {
+    "file": "instances/synthetic/n7k3_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      89,
+      99,
+      93
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 99,
+    "time": 196
+  },
+  {
+    "file": "instances/synthetic/n7k3_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      124,
+      123,
+      104
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 124,
+    "time": 184
+  },
+  {
+    "file": "instances/synthetic/n7k4_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      88,
+      90,
+      80,
+      96
+    ],
+    "pi": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "maxsum": 96,
+    "time": 208
+  },
+  {
+    "file": "instances/synthetic/n7k4_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      83,
+      86,
+      80,
+      83
+    ],
+    "pi": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 86,
+    "time": 179
+  },
+  {
+    "file": "instances/synthetic/n7k4_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      53,
+      59,
+      60,
+      69
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 69,
+    "time": 190
+  },
+  {
+    "file": "instances/synthetic/n7k4_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      93,
+      88,
+      79,
+      81
+    ],
+    "pi": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 93,
+    "time": 201
+  },
+  {
+    "file": "instances/synthetic/n7k4_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      105,
+      95,
+      93,
+      97
+    ],
+    "pi": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 105,
+    "time": 217
+  },
+  {
+    "file": "instances/synthetic/n7k5_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      69,
+      62,
+      58,
+      63,
+      70
+    ],
+    "pi": [
+      4,
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 70,
+    "time": 197
+  },
+  {
+    "file": "instances/synthetic/n7k5_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      34,
+      37,
+      44,
+      58,
+      75
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 75,
+    "time": 194
+  },
+  {
+    "file": "instances/synthetic/n7k5_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      63,
+      43,
+      58,
+      84,
+      91
+    ],
+    "pi": [
+      4,
+      3,
+      0,
+      2,
+      1
+    ],
+    "maxsum": 91,
+    "time": 192
+  },
+  {
+    "file": "instances/synthetic/n7k5_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      52,
+      60,
+      41,
+      55,
+      76
+    ],
+    "pi": [
+      4,
+      1,
+      3,
+      0,
+      2
+    ],
+    "maxsum": 76,
+    "time": 204
+  },
+  {
+    "file": "instances/synthetic/n7k5_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      95,
+      66,
+      88,
+      94,
+      98
+    ],
+    "pi": [
+      4,
+      0,
+      3,
+      2,
+      1
+    ],
+    "maxsum": 98,
+    "time": 187
+  },
+  {
+    "file": "instances/synthetic/n8k3_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      134,
+      124,
+      131
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 134,
+    "time": 203
+  },
+  {
+    "file": "instances/synthetic/n8k3_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      161,
+      133,
+      133
+    ],
+    "pi": [
+      0,
+      2,
+      1
+    ],
+    "maxsum": 161,
+    "time": 195
+  },
+  {
+    "file": "instances/synthetic/n8k3_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      106,
+      106,
+      108
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 108,
+    "time": 167
+  },
+  {
+    "file": "instances/synthetic/n8k3_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      164,
+      180,
+      174
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 180,
+    "time": 180
+  },
+  {
+    "file": "instances/synthetic/n8k3_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      159,
+      167,
+      163
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 167,
+    "time": 183
+  },
+  {
+    "file": "instances/synthetic/n8k4_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      112,
+      112,
+      111,
+      106
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 112,
+    "time": 204
+  },
+  {
+    "file": "instances/synthetic/n8k4_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      112,
+      94,
+      98,
+      92
+    ],
+    "pi": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "maxsum": 112,
+    "time": 200
+  },
+  {
+    "file": "instances/synthetic/n8k4_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      81,
+      78,
+      79,
+      91
+    ],
+    "pi": [
+      3,
+      0,
+      2,
+      1
+    ],
+    "maxsum": 91,
+    "time": 199
+  },
+  {
+    "file": "instances/synthetic/n8k4_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      124,
+      100,
+      93,
+      73
+    ],
+    "pi": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 124,
+    "time": 205
+  },
+  {
+    "file": "instances/synthetic/n8k4_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      106,
+      127,
+      124,
+      104
+    ],
+    "pi": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "maxsum": 127,
+    "time": 205
+  },
+  {
+    "file": "instances/synthetic/n8k5_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      64,
+      70,
+      66,
+      68,
+      74
+    ],
+    "pi": [
+      4,
+      1,
+      3,
+      2,
+      0
+    ],
+    "maxsum": 74,
+    "time": 193
+  },
+  {
+    "file": "instances/synthetic/n8k5_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      36,
+      26,
+      37,
+      48,
+      49
+    ],
+    "pi": [
+      4,
+      3,
+      2,
+      0,
+      1
+    ],
+    "maxsum": 49,
+    "time": 164
+  },
+  {
+    "file": "instances/synthetic/n8k5_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      90,
+      90,
+      86,
+      81,
+      95
+    ],
+    "pi": [
+      4,
+      0,
+      1,
+      2,
+      3
+    ],
+    "maxsum": 95,
+    "time": 221
+  },
+  {
+    "file": "instances/synthetic/n8k5_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      111,
+      113,
+      91,
+      95,
+      98
+    ],
+    "pi": [
+      1,
+      0,
+      4,
+      3,
+      2
+    ],
+    "maxsum": 113,
+    "time": 260
+  },
+  {
+    "file": "instances/synthetic/n8k5_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      142,
+      133,
+      92,
+      92,
+      99
+    ],
+    "pi": [
+      0,
+      1,
+      4,
+      3,
+      2
+    ],
+    "maxsum": 142,
+    "time": 221
+  },
+  {
+    "file": "instances/synthetic/n9k3_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      122,
+      122,
+      124
+    ],
+    "pi": [
+      2,
+      0,
+      1
+    ],
+    "maxsum": 124,
+    "time": 196
+  },
+  {
+    "file": "instances/synthetic/n9k3_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      149,
+      151,
+      147
+    ],
+    "pi": [
+      1,
+      0,
+      2
+    ],
+    "maxsum": 151,
+    "time": 214
+  },
+  {
+    "file": "instances/synthetic/n9k3_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      205,
+      201,
+      187
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 205,
+    "time": 204
+  },
+  {
+    "file": "instances/synthetic/n9k3_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      147,
+      146,
+      145
+    ],
+    "pi": [
+      0,
+      1,
+      2
+    ],
+    "maxsum": 147,
+    "time": 216
+  },
+  {
+    "file": "instances/synthetic/n9k3_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      2,
+      2,
+      2
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      139,
+      140,
+      140
+    ],
+    "pi": [
+      1,
+      2,
+      0
+    ],
+    "maxsum": 140,
+    "time": 182
+  },
+  {
+    "file": "instances/synthetic/n9k4_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      150,
+      144,
+      154,
+      149
+    ],
+    "pi": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "maxsum": 154,
+    "time": 208
+  },
+  {
+    "file": "instances/synthetic/n9k4_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      118,
+      120,
+      109,
+      101
+    ],
+    "pi": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "maxsum": 120,
+    "time": 190
+  },
+  {
+    "file": "instances/synthetic/n9k4_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      127,
+      119,
+      123,
+      101
+    ],
+    "pi": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "maxsum": 127,
+    "time": 220
+  },
+  {
+    "file": "instances/synthetic/n9k4_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      96,
+      94,
+      100,
+      94
+    ],
+    "pi": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "maxsum": 100,
+    "time": 220
+  },
+  {
+    "file": "instances/synthetic/n9k4_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      3,
+      3,
+      3
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      65,
+      77,
+      88,
+      89
+    ],
+    "pi": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "maxsum": 89,
+    "time": 181
+  },
+  {
+    "file": "instances/synthetic/n9k5_v1.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      92,
+      87,
+      86,
+      88,
+      96
+    ],
+    "pi": [
+      4,
+      0,
+      3,
+      1,
+      2
+    ],
+    "maxsum": 96,
+    "time": 190
+  },
+  {
+    "file": "instances/synthetic/n9k5_v2.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      96,
+      123,
+      124,
+      98,
+      86
+    ],
+    "pi": [
+      2,
+      1,
+      3,
+      0,
+      4
+    ],
+    "maxsum": 124,
+    "time": 239
+  },
+  {
+    "file": "instances/synthetic/n9k5_v3.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      96,
+      88,
+      86,
+      86,
+      98
+    ],
+    "pi": [
+      4,
+      0,
+      1,
+      3,
+      2
+    ],
+    "maxsum": 98,
+    "time": 164
+  },
+  {
+    "file": "instances/synthetic/n9k5_v4.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      72,
+      71,
+      65,
+      84,
+      91
+    ],
+    "pi": [
+      4,
+      3,
+      0,
+      1,
+      2
+    ],
+    "maxsum": 91,
+    "time": 190
+  },
+  {
+    "file": "instances/synthetic/n9k5_v5.txt",
+    "iter": 3,
+    "event": "EXPAND",
+    "stackDepth": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "stack": [
+      4,
+      4,
+      4
+    ],
+    "maxStackDepth": 3,
+    "evts": 4,
+    "expandEvts": 4,
+    "backtrackEvts": 0,
+    "pruneBacktrackEvts": 0,
+    "pruneEvts": 0,
+    "strengthenEvts": 0,
+    "shortcircuitEvts": 0,
+    "sums": [
+      97,
+      85,
+      87,
+      89,
+      91
+    ],
+    "pi": [
+      0,
+      4,
+      3,
+      2,
+      1
+    ],
+    "maxsum": 97,
+    "time": 254
+  }
+]
