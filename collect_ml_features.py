@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Script to extract ML features from NumPartV2o runs on synthetic instances.
-This is the second stage of the process, where we extract the first 3 log items
-from each solver run and store them as features for machine learning.
+This is the second stage of the process, where we extract log items equal to the
+number of partitions (k) from each solver run and store them as features for machine learning.
 
 Memory-efficient implementation using JSON Lines format.
 """
@@ -21,6 +21,38 @@ FEATURE_COLLECTED_DIR = "instances/feature_collected"
 OUTPUT_JSONL = "ml_features.jsonl"
 MAX_RETRIES = 3  # Maximum number of retries for each instance
 
+def get_num_partitions(instance_path):
+    """
+    Extract the number of partitions (k) from the instance file.
+
+    Args:
+        instance_path: Relative path to the instance file from numpart dir
+
+    Returns:
+        int: Number of partitions (k), defaults to 3 if not found
+    """
+    try:
+        full_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "solver/numpart",
+            instance_path
+        )
+
+        if not os.path.exists(full_path):
+            print(f"Warning: Instance file {full_path} not found")
+            return 3  # Default fallback
+
+        with open(full_path, 'r') as f:
+            # Skip first line
+            f.readline()
+            # Second line contains the number of partitions
+            k = int(f.readline().strip())
+            print(f"Found {k} partitions in instance file")
+            return k
+    except Exception as e:
+        print(f"Error reading partitions from {instance_path}: {e}")
+        return 3  # Default fallback
+
 def run_command(instance_path, retry_count=0):
     """
     Run the solver command on the given instance with a timeout.
@@ -30,10 +62,12 @@ def run_command(instance_path, retry_count=0):
         retry_count: Current retry attempt number
 
     Returns:
-        Dictionary with the file name and first 3 log items
+        Dictionary with the file name and log items (count equals number of partitions)
     """
     file_name = os.path.basename(instance_path)
-    full_cmd = f"{RUN_CMD} {instance_path} -countlogger -stackdepth=3"
+    # Get number of partitions to determine how many log entries to collect
+    num_partitions = get_num_partitions(instance_path)
+    full_cmd = f"{RUN_CMD} {instance_path} -countlogger -stackdepth={num_partitions}"
     try:
         print(f"Running command: {full_cmd}")
         # Run the command with timeout
@@ -72,7 +106,7 @@ def run_command(instance_path, retry_count=0):
                 return run_command(instance_path, retry_count + 1)
             return {file_name: []}
 
-        return parse_output(result.stdout, file_name)
+        return parse_output(result.stdout, file_name, num_partitions)
     except subprocess.TimeoutExpired:
         print(f"Timeout expired for {instance_path}")
         return {file_name: []}
@@ -83,16 +117,17 @@ def run_command(instance_path, retry_count=0):
             return run_command(instance_path, retry_count + 1)
         return {file_name: []}
 
-def parse_output(output, file_name):
+def parse_output(output, file_name, num_partitions=3):
     """
-    Parse the solver command output to extract the first 3 log items.
+    Parse the solver command output to extract log items based on the number of partitions.
 
     Args:
         output: String containing the command output
         file_name: Name of the instance file
+        num_partitions: Number of partitions (k) to determine how many log entries to extract
 
     Returns:
-        Dictionary with the file name and first 3 log items
+        Dictionary with the file name and log items (count equals num_partitions)
     """
     # Save the raw output for debugging
     debug_output_path = os.path.join(
@@ -127,11 +162,11 @@ def parse_output(output, file_name):
             # Verify and extract the log entries
             if 'log' in data and isinstance(data['log'], list):
                 log_entries = data['log']
-                # Get the first 3 log entries
-                first_three = log_entries[:3]
-                if first_three:
-                    print(f"Successfully extracted {len(first_three)} log entries from {len(log_entries)} total")
-                    return {file_name: first_three}
+                # Get log entries based on number of partitions
+                log_items = log_entries[:num_partitions]
+                if log_items:
+                    print(f"Successfully extracted {len(log_items)} log entries from {len(log_entries)} total")
+                    return {file_name: log_items}
                 else:
                     print(f"Warning: Log array was empty for {file_name}")
                     print(f"Full JSON keys: {list(data.keys())}")
