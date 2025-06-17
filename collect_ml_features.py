@@ -3,20 +3,22 @@
 Script to extract ML features from NumPartV2o runs on synthetic instances.
 This is the second stage of the process, where we extract the first 3 log items
 from each solver run and store them as features for machine learning.
+
+Memory-efficient implementation using JSON Lines format.
 """
 
 import os
 import json
 import subprocess
 import re
-# import shutil
+import shutil
 
 # Configuration variables
 TIMEOUT = 60 * 5  # Timeout in seconds (5 minutes)
 RUN_CMD = "./run.sh NumPartV2o"
 SYNTHETIC_SOLVED_DIR = "instances/synthetic_solved"
 FEATURE_COLLECTED_DIR = "instances/feature_collected"
-OUTPUT_JSON = "ml_features.json"
+OUTPUT_JSONL = "ml_features.jsonl"
 MAX_RETRIES = 3  # Maximum number of retries for each instance
 
 def run_command(instance_path, retry_count=0):
@@ -142,7 +144,6 @@ def parse_output(output, file_name):
 
     except json.JSONDecodeError as e:
         print(f"JSON parsing error for {file_name}: {e}")
-        # print(f"Problematic JSON: {json_str[:100]}...")
         # Try to identify specific JSON syntax error
         line_col = getattr(e, 'lineno', 0), getattr(e, 'colno', 0)
         print(f"Error at line {line_col[0]}, column {line_col[1]}")
@@ -204,6 +205,38 @@ def find_instances():
         print(f"Error listing files in {solved_path}: {e}")
         return []
 
+def get_processed_files(output_path):
+    """
+    Read the JSONL file to determine which files have already been processed.
+
+    Args:
+        output_path: Path to the JSONL output file
+
+    Returns:
+        Set of filenames that have already been processed
+    """
+    processed_files = set()
+
+    if not os.path.exists(output_path):
+        return processed_files
+
+    try:
+        with open(output_path, 'r') as f:
+            for line in f:
+                try:
+                    data = json.loads(line.strip())
+                    # Each line contains a single key (filename)
+                    processed_files.update(data.keys())
+                except json.JSONDecodeError:
+                    # Skip invalid lines
+                    continue
+
+        print(f"Found {len(processed_files)} already processed files")
+    except Exception as e:
+        print(f"Error reading processed files: {e}")
+
+    return processed_files
+
 def main():
     print("Starting ML feature collection...")
 
@@ -217,11 +250,9 @@ def main():
         print(f"ERROR: Solver directory {solver_dir} does not exist!")
         return
 
-    # Create output directory if it doesn't exist
-    output_path = os.path.join(
-        script_dir,
-        OUTPUT_JSON
-    )
+    # Output file path
+    output_path = os.path.join(script_dir, OUTPUT_JSONL)
+    print(f"Output file: {output_path}")
 
     # Find all synthetic instances in the solved directory
     instances = find_instances()
@@ -231,28 +262,16 @@ def main():
 
     print(f"Found {len(instances)} solved instances to process for ML features")
 
-    # Initialize the output file with an empty dict if it doesn't exist
-    if not os.path.exists(output_path):
-        with open(output_path, 'w') as f:
-            json.dump({}, f)
-        print(f"Created new output file: {output_path}")
+    # Get list of already processed files (memory efficient)
+    processed_files = get_processed_files(output_path)
 
-    # Load existing results
-    try:
-        with open(output_path, 'r') as f:
-            results = json.load(f)
-        print(f"Loaded existing results with {len(results)} entries")
-    except (json.JSONDecodeError, FileNotFoundError) as e:
-        print(f"Creating new output file due to error: {e}")
-        results = {}
-
-    # Process each instance and save results incrementally
+    # Process each instance and append results incrementally
     success_count = 0
     for i, instance in enumerate(instances):
         file_name = os.path.basename(instance)
 
         # Skip if already processed
-        if file_name in results:
+        if file_name in processed_files:
             print(f"Skipping {i+1}/{len(instances)}: {file_name} (already processed)")
             continue
 
@@ -265,43 +284,42 @@ def main():
         else:
             success_count += 1
 
-        # Update results dictionary with new data
-        results.update(result)
-
-        # Save updated results after each file (in case of crashes)
-        try:
-            with open(output_path, 'w') as f:
-                json.dump(results, f, indent=2)
-            print(f"Saved results to {output_path}")
-        except Exception as e:
-            print(f"ERROR saving results: {e}")
-            # Create a backup in case the main file is corrupted
-            backup_path = f"{output_path}.bak"
-            with open(backup_path, 'w') as f:
-                json.dump(results, f, indent=2)
-            print(f"Saved backup to {backup_path}")
+            # Append this result to the JSONL file (no need to read the file)
+            try:
+                with open(output_path, 'a') as f:
+                    json_line = json.dumps(result)
+                    f.write(json_line + '\n')
+                print(f"Appended result for {file_name} to {output_path}")
+            except Exception as e:
+                print(f"ERROR saving result for {file_name}: {e}")
+                # Create a backup for this specific result
+                backup_path = os.path.join(script_dir, "backup_results", f"{file_name}.json")
+                os.makedirs(os.path.dirname(backup_path), exist_ok=True)
+                with open(backup_path, 'w') as f:
+                    json.dump(result, f)
+                print(f"Saved backup to {backup_path}")
 
         # Move the processed file to the feature_collected directory
-        # try:
-        #     source_path = os.path.join(
-        #         script_dir,
-        #         "solver/numpart",
-        #         instance
-        #     )
-        #     dest_path = os.path.join(
-        #         script_dir,
-        #         "solver/numpart",
-        #         FEATURE_COLLECTED_DIR,
-        #         file_name
-        #     )
+        try:
+            source_path = os.path.join(
+                script_dir,
+                "solver/numpart",
+                instance
+            )
+            dest_path = os.path.join(
+                script_dir,
+                "solver/numpart",
+                FEATURE_COLLECTED_DIR,
+                file_name
+            )
 
-        #     if os.path.exists(source_path):
-        #         shutil.move(source_path, dest_path)
-        #         print(f"Moved {file_name} to {FEATURE_COLLECTED_DIR}")
-        #     else:
-        #         print(f"WARNING: Source file {source_path} does not exist")
-        # except Exception as e:
-        #     print(f"ERROR moving file: {e}")
+            if os.path.exists(source_path):
+                shutil.move(source_path, dest_path)
+                print(f"Moved {file_name} to {FEATURE_COLLECTED_DIR}")
+            else:
+                print(f"WARNING: Source file {source_path} does not exist")
+        except Exception as e:
+            print(f"ERROR moving file: {e}")
 
     print("\nML feature collection complete.")
     print(f"Successfully processed {success_count} out of {len(instances)} instances.")
@@ -309,4 +327,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # run_command()
