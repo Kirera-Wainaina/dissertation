@@ -9,3 +9,8 @@ env/
 
 ## ignore synthetic data directory
 solver/numpart/instances/synthetic/
+solver/numpart/instances/synthetic_solved/
+solver/numpart/instances/feature_collected/
+
+## debug
+debug_outputs/
