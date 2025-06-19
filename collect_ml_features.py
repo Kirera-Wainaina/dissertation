@@ -63,7 +63,8 @@ def run_command(instance_path, retry_count=0):
         retry_count: Current retry attempt number
 
     Returns:
-        Dictionary with the file name and log items (count equals number of partitions)
+        Dictionary with the file name and log items.
+        Contains the first 'num_partitions' log entries plus any TIMEOUT or TERMINATE events.
     """
     file_name = os.path.basename(instance_path)
     # Get number of partitions to determine how many log entries to collect
@@ -128,7 +129,8 @@ def parse_output(output, file_name, num_partitions=3):
         num_partitions: Number of partitions (k) to determine how many log entries to extract
 
     Returns:
-        Dictionary with the file name and log items (count equals num_partitions)
+        Dictionary with the file name and log items.
+        Contains the first 'num_partitions' log entries plus any TIMEOUT or TERMINATE events.
     """
     # Save the raw output for debugging
     debug_output_path = os.path.join(
@@ -163,14 +165,34 @@ def parse_output(output, file_name, num_partitions=3):
             # Verify and extract the log entries
             if 'log' in data and isinstance(data['log'], list):
                 log_entries = data['log']
-                # Get log entries based on number of partitions
+                # Check for important events (TIMEOUT, TERMINATE) in the log entries
+                timeout_entry = None
+                terminate_entry = None
+
+                for entry in log_entries:
+                    if isinstance(entry, dict):
+                        if entry.get("event") == "TIMEOUT":
+                            print("Solver timeout detected in log entry")
+                            timeout_entry = entry
+                        elif entry.get("event") == "TERMINATE":
+                            print("Solver terminate event detected in log entry")
+                            terminate_entry = entry
+
+                # Build our collection of log items to return
+                # Start with the initial entries up to num_partitions
                 log_items = log_entries[:num_partitions]
+
+                # If we have a TIMEOUT or TERMINATE event that isn't already included, add it
+                if timeout_entry and timeout_entry not in log_items:
+                    log_items.append(timeout_entry)
+                    print("Added TIMEOUT event to log items")
+
+                if terminate_entry and terminate_entry not in log_items:
+                    log_items.append(terminate_entry)
+                    print("Added TERMINATE event to log items")
+
                 if log_items:
                     print(f"Successfully extracted {len(log_items)} log entries from {len(log_entries)} total")
-                    # Check if we have a TIMEOUT event in the log entries
-                    for entry in log_entries:
-                        if isinstance(entry, dict) and entry.get("event") == "TIMEOUT":
-                            print("Solver timeout detected in log entry")
                     return {file_name: log_items}
                 else:
                     print(f"Warning: Log array was empty for {file_name}")
