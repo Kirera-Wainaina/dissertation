@@ -15,6 +15,7 @@ import shutil
 
 # Configuration variables
 TIMEOUT = 60 * 5  # Timeout in seconds (5 minutes)
+TIMEOUT_MS = TIMEOUT * 1000  # Convert to milliseconds for solver command
 RUN_CMD = "./run.sh NumPartV2o"
 SYNTHETIC_SOLVED_DIR = "instances/synthetic_solved"
 FEATURE_COLLECTED_DIR = "instances/feature_collected"
@@ -67,7 +68,7 @@ def run_command(instance_path, retry_count=0):
     file_name = os.path.basename(instance_path)
     # Get number of partitions to determine how many log entries to collect
     num_partitions = get_num_partitions(instance_path)
-    full_cmd = f"{RUN_CMD} {instance_path} -countlogger -stackdepth={num_partitions}"
+    full_cmd = f"{RUN_CMD} {instance_path} -countlogger -timeout={TIMEOUT_MS}ms -stackdepth={num_partitions}"
     try:
         print(f"Running command: {full_cmd}")
         # Run the command with timeout
@@ -108,7 +109,7 @@ def run_command(instance_path, retry_count=0):
 
         return parse_output(result.stdout, file_name, num_partitions)
     except subprocess.TimeoutExpired:
-        print(f"Timeout expired for {instance_path}")
+        print(f"Python subprocess timeout expired for {instance_path}, no output received")
         return {file_name: []}
     except Exception as e:
         print(f"Exception running command for {instance_path}: {e}")
@@ -166,6 +167,10 @@ def parse_output(output, file_name, num_partitions=3):
                 log_items = log_entries[:num_partitions]
                 if log_items:
                     print(f"Successfully extracted {len(log_items)} log entries from {len(log_entries)} total")
+                    # Check if we have a TIMEOUT event in the log entries
+                    for entry in log_entries:
+                        if isinstance(entry, dict) and entry.get("event") == "TIMEOUT":
+                            print("Solver timeout detected in log entry")
                     return {file_name: log_items}
                 else:
                     print(f"Warning: Log array was empty for {file_name}")
