@@ -28,6 +28,7 @@ implements Logger<Node>
   // Timestamps (i.e. iter count) for events that occur at most once;
   // -1 if event has not (yet) occured
   private long terminateAt;
+  private long timeoutAt;
 
   // Trace predicate
   private TracePredicate tp;
@@ -48,6 +49,7 @@ implements Logger<Node>
     this.strengthenHist = mkHist();
     this.shortcircuitHist = mkHist();
     this.terminateAt = -1;
+    this.timeoutAt = -1;
     this.tp = tp;
   }
 
@@ -81,6 +83,17 @@ implements Logger<Node>
     log(Event.STRENGTHEN, i, s, o);
   }
 
+  // Checks for timeout; logs TIMEOUT event and throws TimeoutException
+  public void timeout(long i, Stack<? extends CountingGenerator<Node>> s) {
+    try {
+      super.timeout(i, s);
+    }
+    catch (TimeoutException e) {
+      log(Event.TIMEOUT, i, s);
+      throw e;
+    }
+  }
+
   // Logs an event of type e during iteration i and with generator stack s;
   // String o is either null or a JSON representation of the current value
   // of the objective function.
@@ -107,11 +120,13 @@ implements Logger<Node>
       case STRENGTHEN:     incHist(strengthenHist, stackDepth); break;
       case SHORTCIRCUIT:   incHist(shortcircuitHist, stackDepth); break;
       case TERMINATE:      terminateAt = i; break;
+      case TIMEOUT:        timeoutAt = i; break;
       default: // PANIC: this mustn't happen
         throw new RuntimeException("log() called with illegal event.");
     }
-    // print JSON object if trace predicate is true or TERMINATE event
-    if (tp.test(e, evts, stackDepth) || e == Event.TERMINATE) {
+    // print JSON object if trace predicate is true or TERMINATE/TIMEOUT event
+    if (tp.test(e, evts, stackDepth) ||
+        e == Event.TERMINATE || e == Event.TIMEOUT) {
        System.out.println("{\"iter\":" + i +
                           ",\"event\":\"" + e + "\"" +
                           (o == null ? "" : ",\"objective\":" + o) +
@@ -133,7 +148,8 @@ implements Logger<Node>
            ",\"pruneHist\":" + toStringHist(pruneHist) +
            ",\"strengthenHist\":" + toStringHist(strengthenHist) +
            ",\"shortcircuitHist\":" + toStringHist(shortcircuitHist) +
-           (terminateAt < 0 ? "" : ",\"terminateAt\":" + terminateAt);
+           (terminateAt < 0 ? "" : ",\"terminateAt\":" + terminateAt) +
+           (timeoutAt < 0 ? "" : ",\"timeoutAt\":" + timeoutAt);
   }
 
   // Converts generator stack stack into a JSON array of non-negative numbers

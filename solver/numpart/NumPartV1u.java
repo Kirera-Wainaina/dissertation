@@ -189,6 +189,7 @@ public class NumPartV1u extends OptInstance<NumPartV1u.Node, Long>
       if (Utils.parseOptCountLogger(args)) { lg = new CountLogger<>(tp); }
       if (Utils.parseOptHistLogger(args))  { lg = new HistLogger<>(tp); }
       lg.setTimeout(Utils.parseOptTimeout(args));
+      lg.setTimeoutMillis(Utils.parseOptTimeoutMillis(args));
       long t0 = System.nanoTime();
       try {
         Node x = inst.search(lg);

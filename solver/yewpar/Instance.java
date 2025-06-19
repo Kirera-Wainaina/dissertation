@@ -41,7 +41,7 @@ public abstract class Instance<Node, T>
     genStack.push(new WrappedGenerator<Node>(gen0.children(root)));
     while (!genStack.empty()) {
       iter++;
-      lg.timeout(iter);
+      lg.timeout(iter, genStack);
       CountingGenerator<Node> gen = genStack.peek();
       int k = gen.hasNext();
       if (k > 0) {

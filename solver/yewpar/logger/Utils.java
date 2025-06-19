@@ -16,13 +16,29 @@ public class Utils
         Scanner s = new Scanner(args[i]);
         s.skip("-timeout=");
         long n = s.nextLong();
-	if (n >= 0)
+        if (n >= 0)
           return n;
       } catch (Exception e) {}
     }
     return -1;
   }
-    
+
+  // Returns a non-negative number N if option -timeout=Nms was found;
+  // -1 otherwise.
+  public static long parseOptTimeoutMillis(String[] args) {
+    for (int i = 0; i < args.length; i++) {
+      try {
+        Scanner s = new Scanner(args[i]).useDelimiter("ms");
+        s.skip("-timeout=");
+        long n = s.nextLong();
+        s.skip("ms");
+        if (n >= 0)
+          return n;
+      } catch (Exception e) {}
+    }
+    return -1;
+  }
+
   // Returns true iff option '-countlogger' was found.
   public static boolean parseOptCountLogger(String[] args) {
     for (int i = 0; i < args.length; i++)
