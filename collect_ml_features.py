@@ -14,8 +14,9 @@ import re
 import shutil
 
 # Configuration variables
-TIMEOUT = 60 * 5  # Timeout in seconds (5 minutes)
-TIMEOUT_MS = TIMEOUT * 1000  # Convert to milliseconds for solver command
+SOLVER_TIMEOUT = 60 * 5  # Solver timeout in seconds (5 minutes)
+SUBPROCESS_TIMEOUT = SOLVER_TIMEOUT + 30  # Add 30 seconds buffer for proper shutdown
+TIMEOUT_MS = SOLVER_TIMEOUT * 1000  # Convert to milliseconds for solver command
 RUN_CMD = "./run.sh NumPartV2o"
 SYNTHETIC_SOLVED_DIR = "instances/synthetic_solved"
 FEATURE_COLLECTED_DIR = "instances/feature_collected"
@@ -78,7 +79,7 @@ def run_command(instance_path, retry_count=0):
             shell=True,
             capture_output=True,
             text=True,
-            timeout=TIMEOUT,
+            timeout=SUBPROCESS_TIMEOUT,
             cwd=os.path.join(os.path.dirname(os.path.abspath(__file__)), "solver/numpart")
         )
 
@@ -110,7 +111,7 @@ def run_command(instance_path, retry_count=0):
 
         return parse_output(result.stdout, file_name, num_partitions)
     except subprocess.TimeoutExpired:
-        print(f"Python subprocess timeout expired for {instance_path}, no output received")
+        print(f"Python subprocess timeout expired for {instance_path} - this should be rare since we have a buffer over the solver timeout")
         return {file_name: []}
     except Exception as e:
         print(f"Exception running command for {instance_path}: {e}")
