@@ -70,7 +70,7 @@ def run_command(instance_path, retry_count=0):
     file_name = os.path.basename(instance_path)
     # Get number of partitions to determine how many log entries to collect
     num_partitions = get_num_partitions(instance_path)
-    full_cmd = f"{RUN_CMD} {instance_path} -countlogger -timeout={TIMEOUT_MS}ms -stackdepth={num_partitions}"
+    full_cmd = f"{RUN_CMD} {instance_path} -countlogger -timeout={TIMEOUT_MS}ms -stackdepth={3}"
     try:
         print(f"Running command: {full_cmd}")
         # Run the command with timeout
