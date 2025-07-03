@@ -1,0 +1,274 @@
+{"n10k3_v1.txt": {"subset_sum_max": 172, "subset_sum_min": 165, "subset_sum_variance": 13, "sums": [172, 170, 165]}}
+{"n10k3_v2.txt": {"subset_sum_max": 166, "subset_sum_min": 165, "subset_sum_variance": 0.3333333333333333, "sums": [165, 165, 166]}}
+{"n10k3_v3.txt": {"subset_sum_max": 172, "subset_sum_min": 168, "subset_sum_variance": 5.333333333333333, "sums": [172, 172, 168]}}
+{"n10k3_v4.txt": {"subset_sum_max": 169, "subset_sum_min": 167, "subset_sum_variance": 1.3333333333333333, "sums": [169, 167, 169]}}
+{"n10k3_v5.txt": {"subset_sum_max": 173, "subset_sum_min": 158, "subset_sum_variance": 58.333333333333336, "sums": [173, 168, 158]}}
+{"n11k3_v1.txt": {"subset_sum_max": 152, "subset_sum_min": 149, "subset_sum_variance": 3, "sums": [152, 152, 149]}}
+{"n11k3_v2.txt": {"subset_sum_max": 184, "subset_sum_min": 182, "subset_sum_variance": 1, "sums": [184, 182, 183]}}
+{"n11k3_v3.txt": {"subset_sum_max": 151, "subset_sum_min": 149, "subset_sum_variance": 1.3333333333333333, "sums": [149, 151, 151]}}
+{"n11k3_v4.txt": {"subset_sum_max": 203, "subset_sum_min": 202, "subset_sum_variance": 0.3333333333333333, "sums": [202, 203, 203]}}
+{"n11k3_v5.txt": {"subset_sum_max": 221, "subset_sum_min": 220, "subset_sum_variance": 0.3333333333333333, "sums": [221, 221, 220]}}
+{"n12k3_v1.txt": {"subset_sum_max": 189, "subset_sum_min": 188, "subset_sum_variance": 0.3333333333333333, "sums": [189, 188, 189]}}
+{"n12k3_v2.txt": {"subset_sum_max": 196, "subset_sum_min": 196, "subset_sum_variance": 0, "sums": [196, 196, 196]}}
+{"n12k3_v3.txt": {"subset_sum_max": 125, "subset_sum_min": 124, "subset_sum_variance": 0.3333333333333333, "sums": [124, 125, 125]}}
+{"n12k3_v4.txt": {"subset_sum_max": 180, "subset_sum_min": 179, "subset_sum_variance": 0.3333333333333333, "sums": [180, 180, 179]}}
+{"n12k3_v5.txt": {"subset_sum_max": 213, "subset_sum_min": 212, "subset_sum_variance": 0.3333333333333333, "sums": [213, 213, 212]}}
+{"n13k3_v1.txt": {"subset_sum_max": 148, "subset_sum_min": 148, "subset_sum_variance": 0, "sums": [148, 148, 148]}}
+{"n13k3_v2.txt": {"subset_sum_max": 268, "subset_sum_min": 268, "subset_sum_variance": 0, "sums": [268, 268, 268]}}
+{"n13k3_v3.txt": {"subset_sum_max": 149, "subset_sum_min": 148, "subset_sum_variance": 0.3333333333333333, "sums": [148, 149, 149]}}
+{"n13k3_v4.txt": {"subset_sum_max": 231, "subset_sum_min": 231, "subset_sum_variance": 0, "sums": [231, 231, 231]}}
+{"n13k3_v5.txt": {"subset_sum_max": 177, "subset_sum_min": 175, "subset_sum_variance": 1.3333333333333333, "sums": [175, 177, 177]}}
+{"n14k3_v1.txt": {"subset_sum_max": 290, "subset_sum_min": 289, "subset_sum_variance": 0.3333333333333333, "sums": [290, 289, 289]}}
+{"n14k3_v2.txt": {"subset_sum_max": 174, "subset_sum_min": 174, "subset_sum_variance": 0, "sums": [174, 174, 174]}}
+{"n14k3_v3.txt": {"subset_sum_max": 259, "subset_sum_min": 259, "subset_sum_variance": 0, "sums": [259, 259, 259]}}
+{"n14k3_v4.txt": {"subset_sum_max": 209, "subset_sum_min": 208, "subset_sum_variance": 0.3333333333333333, "sums": [209, 208, 208]}}
+{"n14k3_v5.txt": {"subset_sum_max": 263, "subset_sum_min": 263, "subset_sum_variance": 0, "sums": [263, 263, 263]}}
+{"n15k3_v1.txt": {"subset_sum_max": 260, "subset_sum_min": 260, "subset_sum_variance": 0, "sums": [260, 260, 260]}}
+{"n15k3_v2.txt": {"subset_sum_max": 296, "subset_sum_min": 295, "subset_sum_variance": 0.3333333333333333, "sums": [296, 296, 295]}}
+{"n15k3_v3.txt": {"subset_sum_max": 215, "subset_sum_min": 214, "subset_sum_variance": 0.3333333333333333, "sums": [215, 214, 215]}}
+{"n15k3_v4.txt": {"subset_sum_max": 273, "subset_sum_min": 273, "subset_sum_variance": 0, "sums": [273, 273, 273]}}
+{"n15k3_v5.txt": {"subset_sum_max": 260, "subset_sum_min": 258, "subset_sum_variance": 1.3333333333333333, "sums": [260, 260, 258]}}
+{"n16k3_v1.txt": {"subset_sum_max": 261, "subset_sum_min": 260, "subset_sum_variance": 0.3333333333333333, "sums": [261, 261, 260]}}
+{"n16k3_v2.txt": {"subset_sum_max": 262, "subset_sum_min": 261, "subset_sum_variance": 0.3333333333333333, "sums": [262, 261, 261]}}
+{"n16k3_v3.txt": {"subset_sum_max": 372, "subset_sum_min": 371, "subset_sum_variance": 0.3333333333333333, "sums": [372, 372, 371]}}
+{"n16k3_v4.txt": {"subset_sum_max": 344, "subset_sum_min": 343, "subset_sum_variance": 0.3333333333333333, "sums": [344, 343, 343]}}
+{"n16k3_v5.txt": {"subset_sum_max": 201, "subset_sum_min": 201, "subset_sum_variance": 0, "sums": [201, 201, 201]}}
+{"n17k3_v1.txt": {"subset_sum_max": 357, "subset_sum_min": 357, "subset_sum_variance": 0, "sums": [357, 357, 357]}}
+{"n17k3_v2.txt": {"subset_sum_max": 304, "subset_sum_min": 303, "subset_sum_variance": 0.3333333333333333, "sums": [304, 303, 303]}}
+{"n17k3_v3.txt": {"subset_sum_max": 292, "subset_sum_min": 292, "subset_sum_variance": 0, "sums": [292, 292, 292]}}
+{"n17k3_v4.txt": {"subset_sum_max": 291, "subset_sum_min": 290, "subset_sum_variance": 0.3333333333333333, "sums": [291, 290, 291]}}
+{"n17k3_v5.txt": {"subset_sum_max": 277, "subset_sum_min": 277, "subset_sum_variance": 0, "sums": [277, 277, 277]}}
+{"n18k3_v1.txt": {"subset_sum_max": 249, "subset_sum_min": 248, "subset_sum_variance": 0.3333333333333333, "sums": [248, 249, 248]}}
+{"n18k3_v2.txt": {"subset_sum_max": 329, "subset_sum_min": 329, "subset_sum_variance": 0, "sums": [329, 329, 329]}}
+{"n18k3_v3.txt": {"subset_sum_max": 333, "subset_sum_min": 331, "subset_sum_variance": 1.3333333333333333, "sums": [333, 333, 331]}}
+{"n18k3_v4.txt": {"subset_sum_max": 278, "subset_sum_min": 278, "subset_sum_variance": 0, "sums": [278, 278, 278]}}
+{"n18k3_v5.txt": {"subset_sum_max": 216, "subset_sum_min": 215, "subset_sum_variance": 0.3333333333333333, "sums": [215, 216, 216]}}
+{"n19k3_v1.txt": {"subset_sum_max": 353, "subset_sum_min": 353, "subset_sum_variance": 0, "sums": [353, 353, 353]}}
+{"n19k3_v2.txt": {"subset_sum_max": 324, "subset_sum_min": 323, "subset_sum_variance": 0.3333333333333333, "sums": [323, 323, 324]}}
+{"n19k3_v3.txt": {"subset_sum_max": 269, "subset_sum_min": 268, "subset_sum_variance": 0.3333333333333333, "sums": [269, 269, 268]}}
+{"n19k3_v4.txt": {"subset_sum_max": 307, "subset_sum_min": 306, "subset_sum_variance": 0.3333333333333333, "sums": [306, 306, 307]}}
+{"n19k3_v5.txt": {"subset_sum_max": 380, "subset_sum_min": 378, "subset_sum_variance": 1.3333333333333333, "sums": [380, 380, 378]}}
+{"n20k3_v1.txt": {"subset_sum_max": 370, "subset_sum_min": 370, "subset_sum_variance": 0, "sums": [370, 370, 370]}}
+{"n20k3_v2.txt": {"subset_sum_max": 350, "subset_sum_min": 348, "subset_sum_variance": 1.3333333333333333, "sums": [350, 350, 348]}}
+{"n20k3_v3.txt": {"subset_sum_max": 339, "subset_sum_min": 339, "subset_sum_variance": 0, "sums": [339, 339, 339]}}
+{"n20k3_v4.txt": {"subset_sum_max": 305, "subset_sum_min": 304, "subset_sum_variance": 0.3333333333333333, "sums": [305, 304, 305]}}
+{"n20k3_v5.txt": {"subset_sum_max": 373, "subset_sum_min": 373, "subset_sum_variance": 0, "sums": [373, 373, 373]}}
+{"n21k3_v1.txt": {"subset_sum_max": 340, "subset_sum_min": 339, "subset_sum_variance": 0.3333333333333333, "sums": [339, 340, 339]}}
+{"n21k3_v2.txt": {"subset_sum_max": 345, "subset_sum_min": 345, "subset_sum_variance": 0, "sums": [345, 345, 345]}}
+{"n21k3_v3.txt": {"subset_sum_max": 392, "subset_sum_min": 392, "subset_sum_variance": 0, "sums": [392, 392, 392]}}
+{"n21k3_v4.txt": {"subset_sum_max": 341, "subset_sum_min": 340, "subset_sum_variance": 0.3333333333333333, "sums": [341, 341, 340]}}
+{"n21k3_v5.txt": {"subset_sum_max": 379, "subset_sum_min": 379, "subset_sum_variance": 0, "sums": [379, 379, 379]}}
+{"n22k3_v1.txt": {"subset_sum_max": 435, "subset_sum_min": 433, "subset_sum_variance": 1.3333333333333333, "sums": [435, 433, 435]}}
+{"n22k3_v2.txt": {"subset_sum_max": 355, "subset_sum_min": 354, "subset_sum_variance": 0.3333333333333333, "sums": [355, 354, 354]}}
+{"n22k3_v3.txt": {"subset_sum_max": 352, "subset_sum_min": 351, "subset_sum_variance": 0.3333333333333333, "sums": [352, 352, 351]}}
+{"n22k3_v4.txt": {"subset_sum_max": 302, "subset_sum_min": 302, "subset_sum_variance": 0, "sums": [302, 302, 302]}}
+{"n22k3_v5.txt": {"subset_sum_max": 350, "subset_sum_min": 348, "subset_sum_variance": 1.3333333333333333, "sums": [348, 350, 350]}}
+{"n23k3_v1.txt": {"subset_sum_max": 380, "subset_sum_min": 379, "subset_sum_variance": 0.3333333333333333, "sums": [379, 380, 379]}}
+{"n23k3_v2.txt": {"subset_sum_max": 419, "subset_sum_min": 419, "subset_sum_variance": 0, "sums": [419, 419, 419]}}
+{"n23k3_v5.txt": {"subset_sum_max": 414, "subset_sum_min": 413, "subset_sum_variance": 0.3333333333333333, "sums": [413, 414, 413]}}
+{"n24k3_v1.txt": {"subset_sum_max": 304, "subset_sum_min": 303, "subset_sum_variance": 0.3333333333333333, "sums": [303, 304, 304]}}
+{"n24k3_v3.txt": {"subset_sum_max": 400, "subset_sum_min": 400, "subset_sum_variance": 0, "sums": [400, 400, 400]}}
+{"n25k3_v1.txt": {"subset_sum_max": 369, "subset_sum_min": 367, "subset_sum_variance": 1.3333333333333333, "sums": [369, 369, 367]}}
+{"n25k3_v2.txt": {"subset_sum_max": 461, "subset_sum_min": 461, "subset_sum_variance": 0, "sums": [461, 461, 461]}}
+{"n25k3_v5.txt": {"subset_sum_max": 374, "subset_sum_min": 374, "subset_sum_variance": 0, "sums": [374, 374, 374]}}
+{"n5k3_v1.txt": {"subset_sum_max": 65, "subset_sum_min": 55, "subset_sum_variance": 33.333333333333336, "sums": [55, 55, 65]}}
+{"n5k3_v2.txt": {"subset_sum_max": 96, "subset_sum_min": 79, "subset_sum_variance": 76.33333333333333, "sums": [79, 91, 96]}}
+{"n5k3_v3.txt": {"subset_sum_max": 144, "subset_sum_min": 99, "subset_sum_variance": 516.3333333333334, "sums": [144, 116, 99]}}
+{"n5k3_v4.txt": {"subset_sum_max": 67, "subset_sum_min": 59, "subset_sum_variance": 16.333333333333332, "sums": [64, 59, 67]}}
+{"n5k3_v5.txt": {"subset_sum_max": 124, "subset_sum_min": 80, "subset_sum_variance": 617.3333333333334, "sums": [124, 122, 80]}}
+{"n6k3_v1.txt": {"subset_sum_max": 96, "subset_sum_min": 92, "subset_sum_variance": 4.333333333333333, "sums": [92, 96, 95]}}
+{"n6k3_v2.txt": {"subset_sum_max": 76, "subset_sum_min": 66, "subset_sum_variance": 26.333333333333332, "sums": [76, 66, 73]}}
+{"n6k3_v3.txt": {"subset_sum_max": 123, "subset_sum_min": 108, "subset_sum_variance": 70.33333333333333, "sums": [108, 122, 123]}}
+{"n6k3_v4.txt": {"subset_sum_max": 119, "subset_sum_min": 111, "subset_sum_variance": 19, "sums": [119, 111, 112]}}
+{"n6k3_v5.txt": {"subset_sum_max": 122, "subset_sum_min": 109, "subset_sum_variance": 44.333333333333336, "sums": [109, 118, 122]}}
+{"n7k3_v1.txt": {"subset_sum_max": 181, "subset_sum_min": 170, "subset_sum_variance": 32.333333333333336, "sums": [181, 170, 178]}}
+{"n7k3_v2.txt": {"subset_sum_max": 123, "subset_sum_min": 113, "subset_sum_variance": 30.333333333333332, "sums": [114, 113, 123]}}
+{"n7k3_v3.txt": {"subset_sum_max": 162, "subset_sum_min": 130, "subset_sum_variance": 312.3333333333333, "sums": [162, 159, 130]}}
+{"n7k3_v4.txt": {"subset_sum_max": 99, "subset_sum_min": 89, "subset_sum_variance": 25.333333333333332, "sums": [89, 99, 93]}}
+{"n7k3_v5.txt": {"subset_sum_max": 124, "subset_sum_min": 104, "subset_sum_variance": 127, "sums": [124, 123, 104]}}
+{"n8k3_v1.txt": {"subset_sum_max": 134, "subset_sum_min": 124, "subset_sum_variance": 26.333333333333332, "sums": [134, 124, 131]}}
+{"n8k3_v2.txt": {"subset_sum_max": 161, "subset_sum_min": 133, "subset_sum_variance": 261.3333333333333, "sums": [161, 133, 133]}}
+{"n8k3_v3.txt": {"subset_sum_max": 108, "subset_sum_min": 106, "subset_sum_variance": 1.3333333333333333, "sums": [106, 106, 108]}}
+{"n8k3_v4.txt": {"subset_sum_max": 180, "subset_sum_min": 164, "subset_sum_variance": 65.33333333333333, "sums": [164, 180, 174]}}
+{"n8k3_v5.txt": {"subset_sum_max": 167, "subset_sum_min": 159, "subset_sum_variance": 16, "sums": [159, 167, 163]}}
+{"n9k3_v1.txt": {"subset_sum_max": 124, "subset_sum_min": 122, "subset_sum_variance": 1.3333333333333333, "sums": [122, 122, 124]}}
+{"n9k3_v2.txt": {"subset_sum_max": 151, "subset_sum_min": 147, "subset_sum_variance": 4, "sums": [149, 151, 147]}}
+{"n9k3_v3.txt": {"subset_sum_max": 205, "subset_sum_min": 187, "subset_sum_variance": 89.33333333333333, "sums": [205, 201, 187]}}
+{"n9k3_v4.txt": {"subset_sum_max": 147, "subset_sum_min": 145, "subset_sum_variance": 1, "sums": [147, 146, 145]}}
+{"n9k3_v5.txt": {"subset_sum_max": 140, "subset_sum_min": 139, "subset_sum_variance": 0.3333333333333333, "sums": [139, 140, 140]}}
+{"n10k4_v1.txt": {"subset_sum_max": 129, "subset_sum_min": 121, "subset_sum_variance": 13.666666666666666, "sums": [121, 129, 126, 122]}}
+{"n10k4_v2.txt": {"subset_sum_max": 155, "subset_sum_min": 149, "subset_sum_variance": 8.25, "sums": [149, 155, 152, 155]}}
+{"n10k4_v3.txt": {"subset_sum_max": 138, "subset_sum_min": 128, "subset_sum_variance": 24.916666666666668, "sums": [130, 137, 128, 138]}}
+{"n10k4_v4.txt": {"subset_sum_max": 181, "subset_sum_min": 175, "subset_sum_variance": 8, "sums": [181, 179, 175, 181]}}
+{"n10k4_v5.txt": {"subset_sum_max": 150, "subset_sum_min": 126, "subset_sum_variance": 120, "sums": [150, 132, 126, 128]}}
+{"n10k5_v1.txt": {"subset_sum_max": 99, "subset_sum_min": 75, "subset_sum_variance": 111.2, "sums": [75, 79, 81, 95, 99]}}
+{"n10k5_v2.txt": {"subset_sum_max": 133, "subset_sum_min": 97, "subset_sum_variance": 254.8, "sums": [126, 133, 113, 99, 97]}}
+{"n10k5_v3.txt": {"subset_sum_max": 100, "subset_sum_min": 93, "subset_sum_variance": 6.2, "sums": [96, 96, 96, 100, 93]}}
+{"n10k5_v4.txt": {"subset_sum_max": 122, "subset_sum_min": 106, "subset_sum_variance": 59.2, "sums": [122, 108, 119, 106, 106]}}
+{"n10k5_v5.txt": {"subset_sum_max": 112, "subset_sum_min": 94, "subset_sum_variance": 53.3, "sums": [94, 112, 107, 97, 102]}}
+{"n11k4_v1.txt": {"subset_sum_max": 180, "subset_sum_min": 174, "subset_sum_variance": 7.583333333333333, "sums": [178, 175, 174, 180]}}
+{"n11k4_v2.txt": {"subset_sum_max": 170, "subset_sum_min": 166, "subset_sum_variance": 2.9166666666666665, "sums": [169, 166, 170, 168]}}
+{"n11k4_v3.txt": {"subset_sum_max": 160, "subset_sum_min": 142, "subset_sum_variance": 73, "sums": [160, 160, 152, 142]}}
+{"n11k4_v4.txt": {"subset_sum_max": 141, "subset_sum_min": 135, "subset_sum_variance": 6, "sums": [138, 135, 138, 141]}}
+{"n11k4_v5.txt": {"subset_sum_max": 191, "subset_sum_min": 176, "subset_sum_variance": 57.666666666666664, "sums": [189, 191, 178, 176]}}
+{"n11k5_v1.txt": {"subset_sum_max": 89, "subset_sum_min": 77, "subset_sum_variance": 23.5, "sums": [79, 78, 77, 82, 89]}}
+{"n11k5_v2.txt": {"subset_sum_max": 134, "subset_sum_min": 107, "subset_sum_variance": 135.7, "sums": [134, 108, 109, 108, 107]}}
+{"n11k5_v3.txt": {"subset_sum_max": 128, "subset_sum_min": 115, "subset_sum_variance": 36.3, "sums": [115, 128, 128, 127, 119]}}
+{"n11k5_v4.txt": {"subset_sum_max": 68, "subset_sum_min": 61, "subset_sum_variance": 8.5, "sums": [61, 66, 68, 62, 63]}}
+{"n11k5_v5.txt": {"subset_sum_max": 107, "subset_sum_min": 84, "subset_sum_variance": 75.7, "sums": [107, 94, 90, 89, 84]}}
+{"n12k4_v1.txt": {"subset_sum_max": 175, "subset_sum_min": 170, "subset_sum_variance": 5.583333333333333, "sums": [175, 173, 170, 175]}}
+{"n12k4_v2.txt": {"subset_sum_max": 143, "subset_sum_min": 136, "subset_sum_variance": 12.333333333333334, "sums": [137, 136, 143, 142]}}
+{"n12k4_v3.txt": {"subset_sum_max": 94, "subset_sum_min": 92, "subset_sum_variance": 0.9166666666666666, "sums": [94, 93, 92, 94]}}
+{"n12k4_v4.txt": {"subset_sum_max": 194, "subset_sum_min": 190, "subset_sum_variance": 4.25, "sums": [191, 194, 194, 190]}}
+{"n12k4_v5.txt": {"subset_sum_max": 148, "subset_sum_min": 147, "subset_sum_variance": 0.25, "sums": [147, 148, 148, 148]}}
+{"n12k5_v1.txt": {"subset_sum_max": 118, "subset_sum_min": 110, "subset_sum_variance": 11.5, "sums": [117, 118, 113, 117, 110]}}
+{"n12k5_v2.txt": {"subset_sum_max": 140, "subset_sum_min": 129, "subset_sum_variance": 26.5, "sums": [140, 140, 139, 132, 129]}}
+{"n12k5_v3.txt": {"subset_sum_max": 116, "subset_sum_min": 98, "subset_sum_variance": 54.2, "sums": [100, 107, 110, 116, 98]}}
+{"n12k5_v4.txt": {"subset_sum_max": 151, "subset_sum_min": 117, "subset_sum_variance": 180.7, "sums": [142, 151, 147, 134, 117]}}
+{"n12k5_v5.txt": {"subset_sum_max": 120, "subset_sum_min": 115, "subset_sum_variance": 3.2, "sums": [115, 120, 118, 118, 118]}}
+{"n13k4_v1.txt": {"subset_sum_max": 195, "subset_sum_min": 189, "subset_sum_variance": 8.25, "sums": [195, 195, 189, 194]}}
+{"n13k4_v2.txt": {"subset_sum_max": 122, "subset_sum_min": 120, "subset_sum_variance": 1.3333333333333333, "sums": [122, 120, 120, 122]}}
+{"n13k4_v3.txt": {"subset_sum_max": 195, "subset_sum_min": 192, "subset_sum_variance": 1.6666666666666667, "sums": [192, 193, 195, 194]}}
+{"n13k4_v4.txt": {"subset_sum_max": 157, "subset_sum_min": 156, "subset_sum_variance": 0.25, "sums": [157, 156, 157, 157]}}
+{"n13k4_v5.txt": {"subset_sum_max": 178, "subset_sum_min": 174, "subset_sum_variance": 3.5833333333333335, "sums": [177, 178, 174, 178]}}
+{"n13k5_v1.txt": {"subset_sum_max": 135, "subset_sum_min": 126, "subset_sum_variance": 15, "sums": [128, 134, 126, 135, 132]}}
+{"n13k5_v2.txt": {"subset_sum_max": 149, "subset_sum_min": 143, "subset_sum_variance": 7.2, "sums": [147, 143, 147, 143, 149]}}
+{"n13k5_v3.txt": {"subset_sum_max": 145, "subset_sum_min": 133, "subset_sum_variance": 33.2, "sums": [133, 145, 145, 135, 136]}}
+{"n13k5_v4.txt": {"subset_sum_max": 105, "subset_sum_min": 97, "subset_sum_variance": 9.8, "sums": [104, 103, 105, 103, 97]}}
+{"n13k5_v5.txt": {"subset_sum_max": 156, "subset_sum_min": 154, "subset_sum_variance": 0.8, "sums": [156, 156, 156, 155, 154]}}
+{"n14k4_v1.txt": {"subset_sum_max": 184, "subset_sum_min": 178, "subset_sum_variance": 8.25, "sums": [184, 184, 178, 183]}}
+{"n14k4_v2.txt": {"subset_sum_max": 184, "subset_sum_min": 183, "subset_sum_variance": 0.3333333333333333, "sums": [184, 183, 183, 184]}}
+{"n14k4_v3.txt": {"subset_sum_max": 167, "subset_sum_min": 165, "subset_sum_variance": 0.9166666666666666, "sums": [167, 165, 167, 166]}}
+{"n14k4_v4.txt": {"subset_sum_max": 159, "subset_sum_min": 157, "subset_sum_variance": 1.3333333333333333, "sums": [157, 157, 159, 159]}}
+{"n14k4_v5.txt": {"subset_sum_max": 159, "subset_sum_min": 157, "subset_sum_variance": 0.9166666666666666, "sums": [157, 159, 159, 158]}}
+{"n14k5_v1.txt": {"subset_sum_max": 166, "subset_sum_min": 165, "subset_sum_variance": 0.3, "sums": [166, 166, 165, 165, 166]}}
+{"n14k5_v2.txt": {"subset_sum_max": 162, "subset_sum_min": 151, "subset_sum_variance": 21.5, "sums": [159, 162, 162, 156, 151]}}
+{"n14k5_v3.txt": {"subset_sum_max": 137, "subset_sum_min": 134, "subset_sum_variance": 1.5, "sums": [134, 135, 137, 135, 134]}}
+{"n14k5_v4.txt": {"subset_sum_max": 159, "subset_sum_min": 155, "subset_sum_variance": 2.8, "sums": [159, 159, 157, 155, 157]}}
+{"n14k5_v5.txt": {"subset_sum_max": 156, "subset_sum_min": 155, "subset_sum_variance": 0.2, "sums": [155, 155, 156, 155, 155]}}
+{"n15k4_v1.txt": {"subset_sum_max": 155, "subset_sum_min": 153, "subset_sum_variance": 1.3333333333333333, "sums": [155, 153, 155, 153]}}
+{"n15k4_v2.txt": {"subset_sum_max": 235, "subset_sum_min": 234, "subset_sum_variance": 0.25, "sums": [235, 234, 235, 235]}}
+{"n15k4_v3.txt": {"subset_sum_max": 221, "subset_sum_min": 220, "subset_sum_variance": 0.3333333333333333, "sums": [220, 221, 220, 221]}}
+{"n15k4_v4.txt": {"subset_sum_max": 177, "subset_sum_min": 176, "subset_sum_variance": 0.3333333333333333, "sums": [176, 177, 176, 177]}}
+{"n15k4_v5.txt": {"subset_sum_max": 189, "subset_sum_min": 187, "subset_sum_variance": 0.9166666666666666, "sums": [188, 189, 189, 187]}}
+{"n15k5_v1.txt": {"subset_sum_max": 140, "subset_sum_min": 138, "subset_sum_variance": 1.2, "sums": [140, 138, 140, 138, 138]}}
+{"n15k5_v2.txt": {"subset_sum_max": 122, "subset_sum_min": 121, "subset_sum_variance": 0.2, "sums": [122, 121, 122, 122, 122]}}
+{"n15k5_v3.txt": {"subset_sum_max": 163, "subset_sum_min": 162, "subset_sum_variance": 0.2, "sums": [162, 163, 163, 163, 163]}}
+{"n15k5_v4.txt": {"subset_sum_max": 158, "subset_sum_min": 157, "subset_sum_variance": 0.3, "sums": [158, 157, 157, 158, 158]}}
+{"n15k5_v5.txt": {"subset_sum_max": 134, "subset_sum_min": 133, "subset_sum_variance": 0.3, "sums": [133, 134, 133, 134, 134]}}
+{"n16k4_v1.txt": {"subset_sum_max": 223, "subset_sum_min": 223, "subset_sum_variance": 0, "sums": [223, 223, 223, 223]}}
+{"n16k4_v2.txt": {"subset_sum_max": 179, "subset_sum_min": 179, "subset_sum_variance": 0, "sums": [179, 179, 179, 179]}}
+{"n16k4_v3.txt": {"subset_sum_max": 191, "subset_sum_min": 189, "subset_sum_variance": 0.9166666666666666, "sums": [190, 189, 191, 191]}}
+{"n16k4_v4.txt": {"subset_sum_max": 163, "subset_sum_min": 161, "subset_sum_variance": 1, "sums": [163, 163, 163, 161]}}
+{"n16k4_v5.txt": {"subset_sum_max": 170, "subset_sum_min": 168, "subset_sum_variance": 0.9166666666666666, "sums": [169, 170, 170, 168]}}
+{"n16k5_v1.txt": {"subset_sum_max": 135, "subset_sum_min": 133, "subset_sum_variance": 0.8, "sums": [135, 133, 135, 135, 134]}}
+{"n16k5_v2.txt": {"subset_sum_max": 139, "subset_sum_min": 138, "subset_sum_variance": 0.3, "sums": [138, 139, 138, 139, 139]}}
+{"n16k5_v3.txt": {"subset_sum_max": 164, "subset_sum_min": 162, "subset_sum_variance": 1.2, "sums": [162, 164, 162, 162, 164]}}
+{"n16k5_v4.txt": {"subset_sum_max": 159, "subset_sum_min": 155, "subset_sum_variance": 3.2, "sums": [159, 155, 159, 159, 157]}}
+{"n16k5_v5.txt": {"subset_sum_max": 164, "subset_sum_min": 163, "subset_sum_variance": 0.3, "sums": [163, 164, 164, 164, 163]}}
+{"n17k4_v1.txt": {"subset_sum_max": 200, "subset_sum_min": 199, "subset_sum_variance": 0.25, "sums": [199, 200, 200, 200]}}
+{"n17k4_v2.txt": {"subset_sum_max": 149, "subset_sum_min": 148, "subset_sum_variance": 0.25, "sums": [149, 149, 149, 148]}}
+{"n17k4_v3.txt": {"subset_sum_max": 188, "subset_sum_min": 187, "subset_sum_variance": 0.25, "sums": [187, 188, 187, 187]}}
+{"n17k4_v4.txt": {"subset_sum_max": 212, "subset_sum_min": 212, "subset_sum_variance": 0, "sums": [212, 212, 212, 212]}}
+{"n17k4_v5.txt": {"subset_sum_max": 231, "subset_sum_min": 230, "subset_sum_variance": 0.25, "sums": [230, 231, 231, 231]}}
+{"n17k5_v1.txt": {"subset_sum_max": 184, "subset_sum_min": 183, "subset_sum_variance": 0.2, "sums": [184, 183, 184, 184, 184]}}
+{"n17k5_v2.txt": {"subset_sum_max": 163, "subset_sum_min": 162, "subset_sum_variance": 0.3, "sums": [162, 163, 163, 163, 162]}}
+{"n17k5_v3.txt": {"subset_sum_max": 195, "subset_sum_min": 193, "subset_sum_variance": 0.8, "sums": [195, 195, 193, 195, 195]}}
+{"n17k5_v4.txt": {"subset_sum_max": 147, "subset_sum_min": 145, "subset_sum_variance": 1, "sums": [145, 146, 147, 145, 147]}}
+{"n17k5_v5.txt": {"subset_sum_max": 124, "subset_sum_min": 123, "subset_sum_variance": 0.2, "sums": [123, 124, 124, 124, 124]}}
+{"n18k4_v1.txt": {"subset_sum_max": 201, "subset_sum_min": 200, "subset_sum_variance": 0.25, "sums": [200, 201, 201, 201]}}
+{"n18k4_v2.txt": {"subset_sum_max": 277, "subset_sum_min": 275, "subset_sum_variance": 1, "sums": [275, 277, 277, 277]}}
+{"n18k4_v3.txt": {"subset_sum_max": 234, "subset_sum_min": 234, "subset_sum_variance": 0, "sums": [234, 234, 234, 234]}}
+{"n18k4_v4.txt": {"subset_sum_max": 193, "subset_sum_min": 192, "subset_sum_variance": 0.3333333333333333, "sums": [192, 193, 192, 193]}}
+{"n18k4_v5.txt": {"subset_sum_max": 238, "subset_sum_min": 237, "subset_sum_variance": 0.25, "sums": [237, 238, 238, 238]}}
+{"n18k5_v1.txt": {"subset_sum_max": 175, "subset_sum_min": 175, "subset_sum_variance": 0, "sums": [175, 175, 175, 175, 175]}}
+{"n18k5_v2.txt": {"subset_sum_max": 167, "subset_sum_min": 165, "subset_sum_variance": 0.8, "sums": [167, 167, 165, 167, 167]}}
+{"n18k5_v3.txt": {"subset_sum_max": 158, "subset_sum_min": 157, "subset_sum_variance": 0.3, "sums": [158, 158, 158, 157, 157]}}
+{"n18k5_v4.txt": {"subset_sum_max": 192, "subset_sum_min": 190, "subset_sum_variance": 0.8, "sums": [192, 192, 192, 190, 191]}}
+{"n18k5_v5.txt": {"subset_sum_max": 181, "subset_sum_min": 179, "subset_sum_variance": 0.7, "sums": [179, 181, 180, 179, 180]}}
+{"n19k4_v1.txt": {"subset_sum_max": 240, "subset_sum_min": 237, "subset_sum_variance": 2.25, "sums": [237, 240, 240, 240]}}
+{"n19k4_v2.txt": {"subset_sum_max": 241, "subset_sum_min": 240, "subset_sum_variance": 0.25, "sums": [241, 241, 241, 240]}}
+{"n19k4_v3.txt": {"subset_sum_max": 151, "subset_sum_min": 150, "subset_sum_variance": 0.25, "sums": [151, 151, 150, 151]}}
+{"n19k4_v4.txt": {"subset_sum_max": 207, "subset_sum_min": 205, "subset_sum_variance": 1, "sums": [205, 207, 207, 207]}}
+{"n19k4_v5.txt": {"subset_sum_max": 221, "subset_sum_min": 221, "subset_sum_variance": 0, "sums": [221, 221, 221, 221]}}
+{"n19k5_v1.txt": {"subset_sum_max": 148, "subset_sum_min": 145, "subset_sum_variance": 1.8, "sums": [148, 148, 148, 148, 145]}}
+{"n19k5_v2.txt": {"subset_sum_max": 160, "subset_sum_min": 160, "subset_sum_variance": 0, "sums": [160, 160, 160, 160, 160]}}
+{"n19k5_v3.txt": {"subset_sum_max": 181, "subset_sum_min": 180, "subset_sum_variance": 0.3, "sums": [180, 181, 181, 180, 181]}}
+{"n19k5_v4.txt": {"subset_sum_max": 238, "subset_sum_min": 235, "subset_sum_variance": 2.7, "sums": [238, 235, 235, 238, 238]}}
+{"n19k5_v5.txt": {"subset_sum_max": 245, "subset_sum_min": 244, "subset_sum_variance": 0.3, "sums": [245, 245, 245, 244, 244]}}
+{"n20k4_v1.txt": {"subset_sum_max": 312, "subset_sum_min": 311, "subset_sum_variance": 0.25, "sums": [312, 312, 311, 312]}}
+{"n20k4_v2.txt": {"subset_sum_max": 204, "subset_sum_min": 203, "subset_sum_variance": 0.25, "sums": [203, 204, 204, 204]}}
+{"n20k4_v3.txt": {"subset_sum_max": 233, "subset_sum_min": 233, "subset_sum_variance": 0, "sums": [233, 233, 233, 233]}}
+{"n20k4_v4.txt": {"subset_sum_max": 265, "subset_sum_min": 264, "subset_sum_variance": 0.3333333333333333, "sums": [265, 264, 265, 264]}}
+{"n20k4_v5.txt": {"subset_sum_max": 256, "subset_sum_min": 255, "subset_sum_variance": 0.25, "sums": [256, 255, 256, 256]}}
+{"n20k5_v1.txt": {"subset_sum_max": 181, "subset_sum_min": 181, "subset_sum_variance": 0, "sums": [181, 181, 181, 181, 181]}}
+{"n20k5_v2.txt": {"subset_sum_max": 218, "subset_sum_min": 218, "subset_sum_variance": 0, "sums": [218, 218, 218, 218, 218]}}
+{"n20k5_v3.txt": {"subset_sum_max": 198, "subset_sum_min": 198, "subset_sum_variance": 0, "sums": [198, 198, 198, 198, 198]}}
+{"n20k5_v4.txt": {"subset_sum_max": 188, "subset_sum_min": 187, "subset_sum_variance": 0.2, "sums": [188, 188, 187, 188, 188]}}
+{"n20k5_v5.txt": {"subset_sum_max": 204, "subset_sum_min": 203, "subset_sum_variance": 0.3, "sums": [203, 204, 203, 203, 204]}}
+{"n21k4_v1.txt": {"subset_sum_max": 275, "subset_sum_min": 274, "subset_sum_variance": 0.25, "sums": [275, 274, 274, 274]}}
+{"n21k4_v2.txt": {"subset_sum_max": 238, "subset_sum_min": 238, "subset_sum_variance": 0, "sums": [238, 238, 238, 238]}}
+{"n21k4_v3.txt": {"subset_sum_max": 192, "subset_sum_min": 192, "subset_sum_variance": 0, "sums": [192, 192, 192, 192]}}
+{"n21k4_v4.txt": {"subset_sum_max": 224, "subset_sum_min": 223, "subset_sum_variance": 0.3333333333333333, "sums": [223, 223, 224, 224]}}
+{"n21k4_v5.txt": {"subset_sum_max": 228, "subset_sum_min": 226, "subset_sum_variance": 0.9166666666666666, "sums": [227, 226, 228, 228]}}
+{"n21k5_v2.txt": {"subset_sum_max": 211, "subset_sum_min": 211, "subset_sum_variance": 0, "sums": [211, 211, 211, 211, 211]}}
+{"n21k5_v3.txt": {"subset_sum_max": 181, "subset_sum_min": 180, "subset_sum_variance": 0.2, "sums": [181, 181, 181, 180, 181]}}
+{"n22k4_v1.txt": {"subset_sum_max": 272, "subset_sum_min": 271, "subset_sum_variance": 0.3333333333333333, "sums": [271, 271, 272, 272]}}
+{"n22k4_v2.txt": {"subset_sum_max": 289, "subset_sum_min": 288, "subset_sum_variance": 0.25, "sums": [289, 289, 288, 289]}}
+{"n22k4_v3.txt": {"subset_sum_max": 208, "subset_sum_min": 208, "subset_sum_variance": 0, "sums": [208, 208, 208, 208]}}
+{"n22k4_v4.txt": {"subset_sum_max": 244, "subset_sum_min": 244, "subset_sum_variance": 0, "sums": [244, 244, 244, 244]}}
+{"n22k4_v5.txt": {"subset_sum_max": 206, "subset_sum_min": 204, "subset_sum_variance": 0.9166666666666666, "sums": [206, 205, 204, 206]}}
+{"n22k5_v5.txt": {"subset_sum_max": 212, "subset_sum_min": 211, "subset_sum_variance": 0.2, "sums": [212, 212, 211, 212, 212]}}
+{"n23k4_v1.txt": {"subset_sum_max": 234, "subset_sum_min": 234, "subset_sum_variance": 0, "sums": [234, 234, 234, 234]}}
+{"n23k4_v2.txt": {"subset_sum_max": 262, "subset_sum_min": 261, "subset_sum_variance": 0.25, "sums": [262, 261, 262, 262]}}
+{"n23k4_v4.txt": {"subset_sum_max": 281, "subset_sum_min": 280, "subset_sum_variance": 0.25, "sums": [281, 281, 280, 281]}}
+{"n5k4_v1.txt": {"subset_sum_max": 105, "subset_sum_min": 86, "subset_sum_variance": 70.91666666666667, "sums": [105, 86, 89, 91]}}
+{"n5k4_v2.txt": {"subset_sum_max": 87, "subset_sum_min": 48, "subset_sum_variance": 314.9166666666667, "sums": [87, 48, 67, 83]}}
+{"n5k4_v3.txt": {"subset_sum_max": 71, "subset_sum_min": 40, "subset_sum_variance": 204.91666666666666, "sums": [43, 40, 45, 71]}}
+{"n5k4_v4.txt": {"subset_sum_max": 93, "subset_sum_min": 71, "subset_sum_variance": 99.66666666666667, "sums": [71, 83, 91, 93]}}
+{"n5k4_v5.txt": {"subset_sum_max": 78, "subset_sum_min": 49, "subset_sum_variance": 182, "sums": [49, 73, 76, 78]}}
+{"n5k5_v1.txt": {"subset_sum_max": 68, "subset_sum_min": 2, "subset_sum_variance": 650.7, "sums": [2, 29, 41, 56, 68]}}
+{"n5k5_v2.txt": {"subset_sum_max": 98, "subset_sum_min": 13, "subset_sum_variance": 1507.7, "sums": [13, 27, 32, 89, 98]}}
+{"n5k5_v3.txt": {"subset_sum_max": 99, "subset_sum_min": 2, "subset_sum_variance": 1673.8, "sums": [2, 8, 10, 48, 99]}}
+{"n5k5_v4.txt": {"subset_sum_max": 86, "subset_sum_min": 22, "subset_sum_variance": 654.7, "sums": [22, 63, 75, 80, 86]}}
+{"n5k5_v5.txt": {"subset_sum_max": 96, "subset_sum_min": 78, "subset_sum_variance": 71.5, "sums": [78, 80, 91, 95, 96]}}
+{"n6k4_v1.txt": {"subset_sum_max": 60, "subset_sum_min": 39, "subset_sum_variance": 127.58333333333333, "sums": [39, 40, 58, 60]}}
+{"n6k4_v2.txt": {"subset_sum_max": 87, "subset_sum_min": 49, "subset_sum_variance": 262.6666666666667, "sums": [49, 67, 77, 87]}}
+{"n6k4_v3.txt": {"subset_sum_max": 82, "subset_sum_min": 60, "subset_sum_variance": 86.66666666666667, "sums": [82, 74, 60, 68]}}
+{"n6k4_v4.txt": {"subset_sum_max": 87, "subset_sum_min": 70, "subset_sum_variance": 51, "sums": [78, 75, 70, 87]}}
+{"n6k4_v5.txt": {"subset_sum_max": 150, "subset_sum_min": 94, "subset_sum_variance": 724.25, "sums": [150, 94, 96, 99]}}
+{"n6k5_v1.txt": {"subset_sum_max": 86, "subset_sum_min": 67, "subset_sum_variance": 94.3, "sums": [84, 67, 67, 84, 86]}}
+{"n6k5_v2.txt": {"subset_sum_max": 92, "subset_sum_min": 13, "subset_sum_variance": 1100.3, "sums": [13, 52, 85, 85, 92]}}
+{"n6k5_v3.txt": {"subset_sum_max": 88, "subset_sum_min": 30, "subset_sum_variance": 849.8, "sums": [41, 30, 32, 86, 88]}}
+{"n6k5_v4.txt": {"subset_sum_max": 96, "subset_sum_min": 59, "subset_sum_variance": 221.8, "sums": [59, 66, 76, 86, 96]}}
+{"n6k5_v5.txt": {"subset_sum_max": 91, "subset_sum_min": 20, "subset_sum_variance": 1043.2, "sums": [20, 21, 45, 77, 91]}}
+{"n7k4_v1.txt": {"subset_sum_max": 96, "subset_sum_min": 80, "subset_sum_variance": 43.666666666666664, "sums": [88, 90, 80, 96]}}
+{"n7k4_v2.txt": {"subset_sum_max": 86, "subset_sum_min": 80, "subset_sum_variance": 6, "sums": [83, 86, 80, 83]}}
+{"n7k4_v3.txt": {"subset_sum_max": 69, "subset_sum_min": 53, "subset_sum_variance": 43.583333333333336, "sums": [53, 59, 60, 69]}}
+{"n7k4_v4.txt": {"subset_sum_max": 93, "subset_sum_min": 79, "subset_sum_variance": 41.583333333333336, "sums": [93, 88, 79, 81]}}
+{"n7k4_v5.txt": {"subset_sum_max": 105, "subset_sum_min": 93, "subset_sum_variance": 27.666666666666668, "sums": [105, 95, 93, 97]}}
+{"n7k5_v1.txt": {"subset_sum_max": 70, "subset_sum_min": 58, "subset_sum_variance": 25.3, "sums": [69, 62, 58, 63, 70]}}
+{"n7k5_v2.txt": {"subset_sum_max": 75, "subset_sum_min": 34, "subset_sum_variance": 287.3, "sums": [34, 37, 44, 58, 75]}}
+{"n7k5_v3.txt": {"subset_sum_max": 91, "subset_sum_min": 43, "subset_sum_variance": 383.7, "sums": [63, 43, 58, 84, 91]}}
+{"n7k5_v4.txt": {"subset_sum_max": 76, "subset_sum_min": 41, "subset_sum_variance": 163.7, "sums": [52, 60, 41, 55, 76]}}
+{"n7k5_v5.txt": {"subset_sum_max": 98, "subset_sum_min": 66, "subset_sum_variance": 167.2, "sums": [95, 66, 88, 94, 98]}}
+{"n8k4_v1.txt": {"subset_sum_max": 112, "subset_sum_min": 106, "subset_sum_variance": 8.25, "sums": [112, 112, 111, 106]}}
+{"n8k4_v2.txt": {"subset_sum_max": 112, "subset_sum_min": 92, "subset_sum_variance": 81.33333333333333, "sums": [112, 94, 98, 92]}}
+{"n8k4_v3.txt": {"subset_sum_max": 91, "subset_sum_min": 78, "subset_sum_variance": 35.583333333333336, "sums": [81, 78, 79, 91]}}
+{"n8k4_v4.txt": {"subset_sum_max": 124, "subset_sum_min": 73, "subset_sum_variance": 443, "sums": [124, 100, 93, 73]}}
+{"n8k4_v5.txt": {"subset_sum_max": 127, "subset_sum_min": 104, "subset_sum_variance": 142.25, "sums": [106, 127, 124, 104]}}
+{"n8k5_v1.txt": {"subset_sum_max": 74, "subset_sum_min": 64, "subset_sum_variance": 14.8, "sums": [64, 70, 66, 68, 74]}}
+{"n8k5_v2.txt": {"subset_sum_max": 49, "subset_sum_min": 26, "subset_sum_variance": 90.7, "sums": [36, 26, 37, 48, 49]}}
+{"n8k5_v3.txt": {"subset_sum_max": 95, "subset_sum_min": 81, "subset_sum_variance": 27.3, "sums": [90, 90, 86, 81, 95]}}
+{"n8k5_v4.txt": {"subset_sum_max": 113, "subset_sum_min": 91, "subset_sum_variance": 96.8, "sums": [111, 113, 91, 95, 98]}}
+{"n8k5_v5.txt": {"subset_sum_max": 142, "subset_sum_min": 92, "subset_sum_variance": 577.3, "sums": [142, 133, 92, 92, 99]}}
+{"n9k4_v1.txt": {"subset_sum_max": 154, "subset_sum_min": 144, "subset_sum_variance": 16.916666666666668, "sums": [150, 144, 154, 149]}}
+{"n9k4_v2.txt": {"subset_sum_max": 120, "subset_sum_min": 101, "subset_sum_variance": 76.66666666666667, "sums": [118, 120, 109, 101]}}
+{"n9k4_v3.txt": {"subset_sum_max": 127, "subset_sum_min": 101, "subset_sum_variance": 131.66666666666666, "sums": [127, 119, 123, 101]}}
+{"n9k4_v4.txt": {"subset_sum_max": 100, "subset_sum_min": 94, "subset_sum_variance": 8, "sums": [96, 94, 100, 94]}}
+{"n9k4_v5.txt": {"subset_sum_max": 89, "subset_sum_min": 65, "subset_sum_variance": 126.25, "sums": [65, 77, 88, 89]}}
+{"n9k5_v1.txt": {"subset_sum_max": 96, "subset_sum_min": 86, "subset_sum_variance": 17.2, "sums": [92, 87, 86, 88, 96]}}
+{"n9k5_v2.txt": {"subset_sum_max": 124, "subset_sum_min": 86, "subset_sum_variance": 293.8, "sums": [96, 123, 124, 98, 86]}}
+{"n9k5_v3.txt": {"subset_sum_max": 98, "subset_sum_min": 86, "subset_sum_variance": 33.2, "sums": [96, 88, 86, 86, 98]}}
+{"n9k5_v4.txt": {"subset_sum_max": 91, "subset_sum_min": 65, "subset_sum_variance": 112.3, "sums": [72, 71, 65, 84, 91]}}
+{"n9k5_v5.txt": {"subset_sum_max": 97, "subset_sum_min": 85, "subset_sum_variance": 21.2, "sums": [97, 85, 87, 89, 91]}}
