@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+Step 3:
 Script to extract termination statistics from NumPartV2o runs that completed successfully.
 This script processes the ml_features.jsonl file, identifies entries with TERMINATE events,
 runs NumPartV2o on the corresponding instances, and calculates statistical measures
