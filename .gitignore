@@ -20,3 +20,6 @@ debug_outputs/
 
 ## cache
 __pycache__/
+
+## Ignore the plots
+plots/
