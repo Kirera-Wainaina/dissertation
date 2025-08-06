@@ -14,7 +14,7 @@ import re
 import shutil
 
 # Configuration variables
-SOLVER_TIMEOUT = 60 * 5  # Solver timeout in seconds (5 minutes)
+SOLVER_TIMEOUT = 60 * 60  # Solver timeout in seconds (5 minutes) | 1 hr for a few extra instances to test models
 SUBPROCESS_TIMEOUT = SOLVER_TIMEOUT + 30  # Add 30 seconds buffer for proper shutdown
 TIMEOUT_MS = SOLVER_TIMEOUT * 1000  # Convert to milliseconds for solver command
 RUN_CMD = "./run.sh NumPartV2o"
