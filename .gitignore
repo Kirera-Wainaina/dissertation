@@ -14,3 +14,9 @@ solver/numpart/instances/feature_collected/
 
 ## debug
 debug_outputs/
+
+## Ignore checkpoints
+.ipynb_checkpoints/
+
+## cache
+__pycache__/
